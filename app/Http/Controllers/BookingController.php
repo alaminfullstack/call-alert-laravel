@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Booking;
 use Illuminate\Http\Request;
 
 class BookingController extends Controller
@@ -13,7 +14,8 @@ class BookingController extends Controller
      */
     public function index()
     {
-        //
+        $bookings = Booking::latest()->paginate();
+        return view('bookings.index', compact('bookings'));
     }
 
     /**
@@ -79,6 +81,9 @@ class BookingController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $booking = Booking::where('id', $id)->delete();
+
+        return redirect()->route('bookings.index')
+            ->with('success', 'Booking deleted successfully');
     }
 }

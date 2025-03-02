@@ -30,6 +30,19 @@
                             <img src="{{ asset($post->image) }}" alt="" style="height: 200px;" class="rounded-2 card-img" />
                         </div>
 
+                        @if (session('success'))
+                            <div class="alert alert-success" role="alert">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
+                        @if (session('error'))
+                            <div class="alert alert-danger" role="alert">
+                                {{ session('error') }}
+                            </div>
+                        @endif
+
+
                         <form action="{{ route('booking_save', $post->id) }}" method="POST">
                             @csrf
 
