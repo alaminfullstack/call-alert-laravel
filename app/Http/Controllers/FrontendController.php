@@ -13,7 +13,9 @@ class FrontendController extends Controller
     public function index(){
         $posts = Post::latest()->get();
         $sliders = Slider::latest()->get();
-        return view('welcome', compact('posts', 'sliders'));
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('index', compact('posts', 'sliders','populars'));
+        // return view('welcome', compact('posts', 'sliders'));
     }
 
     public function details($id){
