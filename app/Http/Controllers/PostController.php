@@ -44,6 +44,8 @@ class PostController extends Controller
 
 
         $post = new Post();
+        $post->description = $request->description;
+        $post->name = $request->name;
         $post->title = $request->title;
         $post->code = $request->code;
         $post->charge = $request->charge;
@@ -112,6 +114,8 @@ class PostController extends Controller
             'title' => 'required'
         ]);
 
+        $post->description = $request->description;
+        $post->name = $request->name;
         $post->title = $request->title;
         $post->code = $request->code;
         $post->charge = $request->charge;

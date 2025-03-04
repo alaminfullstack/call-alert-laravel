@@ -20,13 +20,15 @@ class FrontendController extends Controller
 
     public function details($id){
         $post = Post::findOrFail($id);
-        return view('details', compact('post'));
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('single', compact('post','populars'));
     }
 
     public function booking($id){
         $post = Post::findOrFail($id);
         $methods = PaymentMethod::latest()->get();
-        return view('booking', compact('post', 'methods'));
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('preview', compact('post', 'methods', 'populars'));
     }
 
     public function booking_save(Request $request, $id){
@@ -42,6 +44,7 @@ class FrontendController extends Controller
 
     public function payment($id){
         $post = Post::findOrFail($id);
+        return view('servey', compact('post'));
         $methods = PaymentMethod::latest()->get();
 
         // Retrieve stored session data
@@ -58,9 +61,30 @@ class FrontendController extends Controller
 
     public function payment_save(Request $request, $id) {
         // Retrieve stored session booking data
-        $bookingData = session('booking_data', []);
         $post = Post::findOrFail($id);
-    
+
+        // Create a new booking record
+        $booking = new Booking();
+        $booking->post_id = $id;
+        $booking->name = $request->name;
+        $booking->mobile = $request->mobile;
+        $booking->whatsapp = $request->whatsapp;
+        $booking->address = $request->address;
+        $booking->date = $request->date;
+        $booking->time = $request->time;
+        $booking->rate = $post->rate;
+        $booking->amount = $post->charge;
+        $booking->type = $request->type;
+        $booking->work_type = $request->work_type;
+        $booking->account_number = $request->account_number;
+        $booking->method = $request->bkash;
+        // $booking->transaction_id = $request->transaction_id;
+        $booking->status = 'booking';
+        $booking->save();
+
+        return redirect()->route('welcome')->with('success', 'Booking and payment saved successfully.');
+        
+        $bookingData = session('booking_data', []);
         if (empty($bookingData)) {
             return redirect()->route('booking', $post->id)->with('error', 'No booking data found.');
         }

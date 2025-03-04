@@ -43,10 +43,11 @@
                                         <input type="file" name="image" class="form-control" id="image" />
                                     </div>
                                 </div>
+
                                 <div class="col-md-6">
                                     <div class="form-group mb-3">
                                         <label class="form-label">Name *</label>
-                                        <input type="text" name="title" class="form-control" required />
+                                        <input type="text" name="name" class="form-control" required />
                                     </div>
                                 </div>
 
@@ -97,6 +98,20 @@
                                     <div class="form-group mb-3">
                                         <label class="form-label">Location</label>
                                         <input type="text" name="location" class="form-control" required />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group mb-3">
+                                        <label class="form-label">Title</label>
+                                        <input type="text" name="title" class="form-control" required />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group mb-3">
+                                        <label class="form-label">Description</label>
+                                        <textarea name="description" class="form-control" rows="3"></textarea>
                                     </div>
                                 </div>
 

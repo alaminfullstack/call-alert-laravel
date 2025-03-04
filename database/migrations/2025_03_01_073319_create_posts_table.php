@@ -16,6 +16,7 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('image')->nullable();
+            $table->string('name');
             $table->string('title');
             $table->string('code')->nullable();
             $table->double('charge')->default(0);
@@ -23,6 +24,7 @@ class CreatePostsTable extends Migration
             $table->string('home_service')->default('available');
             $table->string('type')->default('free room');
             $table->string('location')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

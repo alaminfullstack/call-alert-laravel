@@ -1,101 +1,28 @@
 <!DOCTYPE html>
-<html class='ltr' dir='ltr' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b'
-    xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html class='ltr' dir='ltr' lang='en' xmlns='http://www.w3.org/1999/xhtml'
+    xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data'
+    xmlns:expr='http://www.google.com/2005/gml/expr'>
 
 <head>
-    <!--- pikitemplates All Packed SEO /-->
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport' />
-    <title>Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮
-    </title>
+    <title>{{ $post->title }}</title>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
-    <meta content='blogger' name='generator' />
-    <link href='../../favicon.ico' rel='icon' type='image/x-icon' />
-    <link href='../../favicon.ico' rel='icon' sizes='32x32' />
-    <link href='../../favicon.ico' rel='icon' sizes='100x100' />
-    <link href='../../favicon.ico' rel='apple-touch-icon' />
-    <meta content='https://www.dhakatravel18.com/favicon.ico' name='msapplication-TileImage' />
+    <meta content='/favicon.ico' name='msapplication-TileImage' />
     <link href='mimi-code-d061-8-hours-tk-7500-dhaka.html' hreflang='x-default' rel='alternate' />
     <meta content='#3e55fa' name='theme-color' />
     <meta content='#3e55fa' name='msapplication-navbutton-color' />
     <link href='mimi-code-d061-8-hours-tk-7500-dhaka.html' rel='canonical' />
-    <link rel="alternate" type="application/atom+xml"
-        title="DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - Atom"
-        href="../../feeds/posts/default" />
-    <link rel="alternate" type="application/rss+xml"
-        title="DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - RSS"
-        href="../../feeds/posts/default9522?alt=rss" />
-    <link rel="service.post" type="application/atom+xml"
-        title="DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - Atom"
-        href="https://www.blogger.com/feeds/1473765670338329414/posts/default" />
 
-    <link rel="alternate" type="application/atom+xml"
-        title="DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - Atom"
-        href="../../feeds/3761679629928076701/comments/default.html" />
     <meta
         content='DHAKA TRAVEL 18, Dhakatravel18, Dhaka travel 18, BD CALL GIRL SERVICE, DHAKA CALL GIRL SERVICE, Bangladeshi Call girl Service, BD CALL GIRL AGENCY,'
         name='description' />
-    <!-- Metadata for Open Graph protocol available here http://ogp.me/. -->
+
     <meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='robots' />
     <meta content='article' property='og:type' />
-    <meta content='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮' property='og:title' />
-    <meta content='https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html' property='og:url' />
-    <meta
-        content='DHAKA TRAVEL 18, Dhakatravel18, Dhaka travel 18, BD CALL GIRL SERVICE, DHAKA CALL GIRL SERVICE, Bangladeshi Call girl Service, BD CALL GIRL AGENCY,'
-        property='og:description' />
-    <meta content='DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025'
-        property='og:site_name' />
-    <meta
-        content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUeFab4BDjGun2VBx6-KViS9foRfyclJnOBP0qNIS1eftMxr7_cIHduhCDG1QZM0n35UJ8Qg5wVToVzvs5doN1P_JllsujE1HLVxfOLU1-RN_VnM-xWW6SLeAHGyB2e0ds468TcovXavnsRZzZYkwW6e/s16000/SCH-63870841315982-2103213618.jpg'
-        property='og:image' />
-    <meta
-        content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUeFab4BDjGun2VBx6-KViS9foRfyclJnOBP0qNIS1eftMxr7_cIHduhCDG1QZM0n35UJ8Qg5wVToVzvs5doN1P_JllsujE1HLVxfOLU1-RN_VnM-xWW6SLeAHGyB2e0ds468TcovXavnsRZzZYkwW6e/s16000/SCH-63870841315982-2103213618.jpg'
-        name='twitter:image' />
-    <meta content='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮' property='og:title' />
-    <meta content='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮' name='keywords' />
-    <link href='mimi-code-d061-8-hours-tk-7500-dhaka.html' hreflang='en' rel='alternate' />
-    <meta content='summary_large_image' name='twitter:card' />
-    <meta content='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮' name='twitter:title' />
-    <meta content='https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
-        name='twitter:domain' />
-    <meta
-        content='DHAKA TRAVEL 18, Dhakatravel18, Dhaka travel 18, BD CALL GIRL SERVICE, DHAKA CALL GIRL SERVICE, Bangladeshi Call girl Service, BD CALL GIRL AGENCY,'
-        name='twitter:description' />
-    <meta
-        content='DHAKA TRAVEL 18, Dhakatravel18, Dhaka travel 18, BD CALL GIRL SERVICE, DHAKA CALL GIRL SERVICE, Bangladeshi Call girl Service, BD CALL GIRL AGENCY,'
-        name='twitter:creator' />
-    <meta content='en_US' property='og:locale' />
-    <meta content='en_GB' property='og:locale:alternate' />
-    <meta content='id_ID' property='og:locale:alternate' />
-    <link href='http://1.bp.blogspot.com/' rel='dns-prefetch' />
-    <link href='http://28.2bp.blogspot.com/' rel='dns-prefetch' />
-    <link href='http://3.bp.blogspot.com/' rel='dns-prefetch' />
-    <link href='http://4.bp.blogspot.com/' rel='dns-prefetch' />
-    <link href='http://2.bp.blogspot.com/' rel='dns-prefetch' />
-    <link href='http://www.blogger.com/' rel='dns-prefetch' />
-    <link href='http://maxcdn.bootstrapcdn.com/' rel='dns-prefetch' />
-    <link href='http://fonts.googleapis.com/' rel='dns-prefetch' />
-    <link href='http://use.fontawesome.com/' rel='dns-prefetch' />
-    <link href='http://ajax.googleapis.com/' rel='dns-prefetch' />
-    <link href='http://resources.blogblog.com/' rel='dns-prefetch' />
-    <link href='http://feeds.feedburner.com/' rel='dns-prefetch' />
-    <link href='http://cdnjs.cloudflare.com/' rel='dns-prefetch' />
-    <link href='http://www.google-analytics.com/' rel='dns-prefetch' />
-    <link href='http://themes.googleusercontent.com/' rel='dns-prefetch' />
-    <link href='http://pagead2.googlesyndication.com/' rel='dns-prefetch' />
-    <link href='http://googleads.g.doubleclick.net/' rel='dns-prefetch' />
-    <link href='http://www.gstatic.com/' rel='preconnect' />
-    <link href='http://www.googletagservices.com/' rel='dns-prefetch' />
-    <link href='http://static.xx.fbcdn.net/' rel='dns-prefetch' />
-    <link href='http://tpc.googlesyndication.com/' rel='dns-prefetch' />
-    <link href='http://apis.google.com/' rel='dns-prefetch' />
-    <link href='http://www.facebook.com/' rel='dns-prefetch' />
-    <link href='http://connect.facebook.net/' rel='dns-prefetch' />
-    <link href='http://twitter.com/' rel='dns-prefetch' />
-    <link href='http://www.youtube.com/' rel='dns-prefetch' />
-    <link href='http://www.pinterest.com/' rel='dns-prefetch' />
-    <link href='http://www.linkedin.com/' rel='dns-prefetch' />
+    <meta content="{{ $post->title }}" property='og:title' />
+
     <!-- Font Awesome Brands -->
-    <link href='../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css' rel='stylesheet' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css' rel='stylesheet' />
     <!-- Template Style CSS -->
     <style id='page-skin-1' type='text/css'>
         /*-- Google Signika Font Family --*/
@@ -691,7 +618,7 @@
             display: block;
             object-fit: cover;
             z-index: 1;
-            opacity: 0;
+            opacity: 1;
             transition: opacity .30s ease, transform .30s ease
         }
 
@@ -1437,7 +1364,7 @@
 
         #original-menu .widget,
         #original-menu .widget>.widget-title {
-            display: none
+            display: block;
         }
 
         #original-menu .show-menu {
@@ -6707,33 +6634,14 @@
             }
         }
     </style>
-   
+
     <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109' />
     <meta name='google-adsense-platform-domain' content='blogspot.com' />
 
 </head>
 
 <body class='item item-view' id='mainContent'>
-    <!-- Theme Options -->
-    <div class='admin-area' style='display:none'>
-        <div class='admin-section section' id='admin' name='Theme Options (Admin Panel)'>
-            <div class='widget Image' data-version='2' id='Image33'>
-                <script
-                    type='text/javascript'>var noThumb = "../../../3.bp.blogspot.com/-Yw8BIuvwoSQ/VsjkCIMoltI/AAAAAAAAC4c/s55PW6xEKn0/s1600-r/nth.png";</script>
-            </div>
-            <div class='widget LinkList' data-version='2' id='LinkList1'>
-                <script type='text/javascript'>   var commentsSystem = "blogger"; </script>
-            </div>
-            <div class='widget LinkList' data-version='2' id='LinkList2'>
-                <script
-                    type='text/javascript'>   var loadMorePosts = "Load More"; var relatedPostsText = "You May Like"; var relatedPostsNum = 3;  </script>
-            </div>
-            <div class='widget LinkList' data-version='2' id='LinkList3'>
-                <script
-                    type='text/javascript'> var fixedSidebar = true; var fixedMenu = true; var showMoreText = "Show More";   </script>
-            </div>
-        </div>
-    </div>
+
     <!-- Outer Wrapper -->
     <div id='outer-wrapper'>
         <!-- Header Wrapper -->
@@ -6749,13 +6657,13 @@
                     <div class='container'>
                         <div class='logo-container'>
                             <div class='header-section'>
-                                <div class='my-home'><a href='../../index.html'><span
+                                <div class='my-home'><a href='/'><span
                                             class='material-symbols-rounded'>home</span></a></div>
                                 <div class='header-left'>
                                     <a class='hamburger' href='javascript:;'></a>
                                     <div class='header-room section' id='header-room1' name='Mobile Header (B)'>
                                         <div class='widget Image' data-version='2' id='Image21'>
-                                            <a class='SuperLogo-img' href='../../index.html'>
+                                            <a class='SuperLogo-img' href='/'>
                                                 <img alt='DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025'
                                                     data-normal='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
                                                     height='90' id='darkroom1'
@@ -6768,7 +6676,7 @@
                                     <div class='original-menu section' id='original-menu' name='Main Menu'>
                                         <div class='widget LinkList' data-version='2' id='LinkList12'>
                                             <ul id='Ooiix-menuList' role='menubar'>
-                                                <li itemprop='name'><a href='../../index.html' itemprop='url'>Home </a>
+                                                <li itemprop='name'><a href='/' itemprop='url'>Home </a>
                                                 </li>
                                                 <li itemprop='name'><a href='../../p/how-to-book-online.html'
                                                         itemprop='url'>ক&#2495; ভ&#2494;ব&#2503; ব&#2497;ক&#2495;&#2434;
@@ -6794,10 +6702,10 @@
                                 </div>
                                 <div id='search-flex'>
                                     <div class='search-flex-container'>
-                                        <form action='https://www.dhakatravel18.com/search' class='search-form'
-                                            role='search'>
-                                            <input autocomplete='off' class='search-input' name='q' placeholder='Search'
-                                                spellcheck='false' type='search' value='' />
+                                        <form action='/search' class='search-form' role='search'>
+                                            <input autocomplete='off' class='search-input' name='q'
+                                                placeholder='Search' spellcheck='false' type='search'
+                                                value='' />
                                         </form>
                                         <a class='search-flex-close search-hidden' href='javascript:;' role='button'
                                             title='Search'></a>
@@ -6819,20 +6727,15 @@
                                 <article class='hentry item-post' itemscope='itemscope'
                                     itemtype='https://schema.org/CreativeWork'>
                                     <div class='post-inner-area'>
-                                        <script
-                                            type='application/ld+json'>{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html"},"headline":"Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮","description":"Name Mimi Code Number D061 Booking Charge Tk: 300 8 Hours Package Tk: 7500 Home Service Available Outcall/Incall Free Room Location Dhaka Ci...","image":["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUeFab4BDjGun2VBx6-KViS9foRfyclJnOBP0qNIS1eftMxr7_cIHduhCDG1QZM0n35UJ8Qg5wVToVzvs5doN1P_JllsujE1HLVxfOLU1-RN_VnM-xWW6SLeAHGyB2e0ds468TcovXavnsRZzZYkwW6e/s16000/SCH-63870841315982-2103213618.jpg"],"datePublished":"2025-01-22T22:43:00-08:00","dateModified":"2025-01-22T22:47:10-08:00","author":{"@type":"Person","name":"Verified ","url":"https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html"},"publisher":{"@type":"Organization","name":"DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}</script>
-                                        <nav id='breadcrumb'><a href='../../index.html'>
+
+                                        <nav id='breadcrumb'><a href='/'>
                                                 Home</a>
                                             <em class='delimiter'></em><a class='b-label'
-                                                href='../../search/label/Available.html'>Available</a><em
-                                                class='delimiter'></em><span class='current'>
-                                                Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</span>
+                                                href='/search'>Available</a><em class='delimiter'></em><span
+                                                class='current'>{{ $post->title }}</span>
                                         </nav>
-                                        <script type='application/ld+json'>{"@context":"http://schema.org", "@type": "BreadcrumbList", "@id": "#Breadcrumb", "itemListElement": [{ "@type": "ListItem", "position": 1, "item": { "name": "Home", "@id": "https://www.dhakatravel18.com/" } },{ "@type": "ListItem", "position": 2, "item": { "name": "Available", "@id": "https://www.dhakatravel18.com/search/label/Available" } },{ "@type": "ListItem", "position": 3, "item": { "name": "Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮", "@id": "https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html" } }] }
-            </script>
-                                        <h1 class='entry-title'>Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18
-                                            | ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</h1>
+
+                                        <h1 class='entry-title'>{{ $post->title }}</h1>
                                         <div class='all-flex'>
                                             <div class='post-inner-data flex'>
                                                 <div class='post-inner-user'>
@@ -6853,9 +6756,10 @@
                                         </div>
                                         <div class='post-body entry-content' id='postBody'>
                                             <div class="separator"><a
-                                                    href="../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUe/s486/SCH-63870841315982-2103213618.jpg"
+                                                    href="../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUe/s486/SCH-63870841315982-2103213618.jpg"
                                                     style="clear: left; display: inline !important; margin-bottom: 1em; margin-right: 1em; text-align: center;"><img
-                                                        border="0" data-original-height="486" data-original-width="390"
+                                                        border="0" data-original-height="486"
+                                                        data-original-width="390"
                                                         src="../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUe/s16000/SCH-63870841315982-2103213618.jpg" /></a>
                                             </div>
                                             <div><br /></div>
@@ -6866,58 +6770,72 @@
                                                         <tr style="box-sizing: inherit;">
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Name</b></td>
+                                                                <b>Name</b>
+                                                            </td>
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Mimi</b></td>
+                                                                <b>{{ $post->name }}</b>
+                                                            </td>
                                                         </tr>
                                                         <tr style="box-sizing: inherit;">
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Code Number</b></td>
+                                                                <b>Code Number</b>
+                                                            </td>
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>D061</b></td>
+                                                                <b>{{ $post->code }}</b>
+                                                            </td>
                                                         </tr>
                                                         <tr style="box-sizing: inherit;">
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Booking Charge</b></td>
+                                                                <b>Booking Charge</b>
+                                                            </td>
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <span><b>Tk: 300</b></span></td>
+                                                                <span><b>Tk: {{ $post->charge }}</b></span>
+                                                            </td>
                                                         </tr>
                                                         <tr style="box-sizing: inherit;">
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>8 Hours Package</b></td>
+                                                                <b>8 Hours Package</b>
+                                                            </td>
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Tk: 7500</b></td>
+                                                                <b>Tk: {{ $post->rate }}</b>
+                                                            </td>
                                                         </tr>
                                                         <tr style="box-sizing: inherit;">
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Home Service</b></td>
+                                                                <b>Home Service</b>
+                                                            </td>
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Available</b></td>
+                                                                <b>{{ $post->home_service }}</b>
+                                                            </td>
                                                         </tr>
                                                         <tr style="box-sizing: inherit;">
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Outcall/Incall</b></td>
+                                                                <b>Outcall/Incall</b>
+                                                            </td>
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Free Room</b></td>
+                                                                <b>{{ $post->type }}</b>
+                                                            </td>
                                                         </tr>
                                                         <tr style="box-sizing: inherit;">
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Location</b></td>
+                                                                <b>Location</b>
+                                                            </td>
                                                             <td
                                                                 style="border-color: rgba(0, 0, 0, 0.1); border-image: initial; border-style: solid; border-width: 0px 1px 1px 0px; box-sizing: inherit; padding: 8px; text-align: justify;">
-                                                                <b>Dhaka City&nbsp;</b></td>
+                                                                <b>{{ $post->location }}</b>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -6953,13 +6871,13 @@
                                                                                         style="clear: both; font-weight: bold;">
                                                                                         <div class="separator"
                                                                                             style="clear: both;"><a
-                                                                                                href="../../p/booking-page.html"
+                                                                                                href="{{ route('booking', $post->id) }}"
                                                                                                 style="margin-left: 1em; margin-right: 1em;"
                                                                                                 target="_blank"><img
                                                                                                     border="0"
                                                                                                     data-original-height="128"
                                                                                                     data-original-width="725"
-                                                                                                    src="../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLzbrj6VckBQ2Kp6BsUe04ZUzKwfF9aaZL9uJJV0E/s16000/book-now%20(1).gif" /></a>
+                                                                                                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLzbrj6VckBQ2Kp6BsUe04ZUzKwfF9aaZL9uJJV0E/s16000/book-now%20(1).gif" /></a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="separator"
@@ -7020,7 +6938,8 @@
                                                                                             </div>
                                                                                             <div
                                                                                                 style="text-align: justify;">
-                                                                                                <br /></div>
+                                                                                                <br />
+                                                                                            </div>
                                                                                             <div
                                                                                                 style="text-align: justify;">
                                                                                                 <span
@@ -7137,7 +7056,8 @@
                                                                                             </div>
                                                                                             <div
                                                                                                 style="text-align: justify;">
-                                                                                                <br /></div>
+                                                                                                <br />
+                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div style="text-align: left;">
@@ -7259,7 +7179,8 @@
                                                         data-url='https://www.facebook.com/sharer.php?u=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
                                                         data-width='550' href='javascript:;' rel='nofollow'
                                                         title='Facebook'>Facebook</a></li>
-                                                <li class='twitter'><a class='fa-twitter window-piki' data-height='460'
+                                                <li class='twitter'><a class='fa-twitter window-piki'
+                                                        data-height='460'
                                                         data-url='https://twitter.com/intent/tweet?url=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html&text=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
                                                         data-width='550' href='javascript:;' rel='nofollow'
                                                         title='Twitter'>Twitter</a></li>
@@ -7297,7 +7218,8 @@
                                                 <h3 class='title'>
                                                     You may like these posts
                                                 </h3>
-                                                <a class='simple-viewmore' href='../../search/label/Available.html'>Show
+                                                <a class='simple-viewmore'
+                                                    href='../../search/label/Available.html'>Show
                                                     more</a>
                                             </div>
                                             <div class='Super-related'>
@@ -7324,199 +7246,49 @@
                                 <h3 class='title'>Popular Posts</h3>
                             </div>
                             <div class='widget-content sidebar-posts'>
-                                <div class='popular-post post item0'>
-                                    <a class='post-filter-inner gaint'
-                                        href='../../2024/10/payel-islam-code-d060-8-hours-tk-5000.html'
-                                        title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <span class='post-filter-link background-layer image-nos'>
-                                            <img alt='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                                @foreach ($populars as $popular)
+                                    @if($loop->first)
+                                        <div class='popular-post post item{{$loop->iteration}}'>
+                                            <a class='post-filter-inner gaint'
+                                                href="{{ route('details', $popular->id) }}"
+                                                title="{{ $popular->title }}">
+                                                <span class='post-filter-link background-layer image-nos'>
+                                                    <img alt="{{ $popular->title }}"
+                                                        class='snip-thumbnail'
+                                                        data-src="{{ asset($popular->image) }}" src="{{ asset($popular->image) }}" />
+                                                </span>
+                                                <div class='entery-category-fly'>
+                                                    <span class='post-tag'>Available</span>
+                                                    <h2 class='entry-title vcard'>{{ $popular->title }}</h2>
+                                                    <div class='post-snip'>
+                                                        <img alt='Verified' class='post-author-image'
+                                                            src='/assets/img/verify.png' />
+                                                        <span class='post-author'>Verified </span>
+                                                        <span class='post-date'>{{ $popular->created_at->format('M d Y') }}</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    @else 
+                                    <div class='popular-post post item{{$loop->iteration}}'>
+                                        <a class='post-filter-inner image-nos'
+                                            href="{{ route('details', $popular->id) }}"
+                                            title="{{ $popular->title }}">
+                                            <img alt="{{ $popular->title }}"
                                                 class='snip-thumbnail'
-                                                data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvxpTt3pENrIxfStzhDX5ioFPUi3o1MiAtDi29QbK/w74-h74-p-k-no-nu/20241030_210531.jpg' />
-                                        </span>
-                                        <div class='entery-category-fly'>
-                                            <span class='post-tag'>Available</span>
-                                            <h2 class='entry-title vcard'>Payel Islam | CODE : D060 | 8 Hours Tk: 5200 |
-                                                DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</h2>
+                                                data-src="{{ asset($popular->image) }}" src="{{ asset($popular->image) }}" />
+                                        </a>
+                                        <div class='entery-category-box'>
+                                            <h2 class='entry-title vcard'><a
+                                                    href="{{ route('details', $popular->id) }}"
+                                                    title="{{ $popular->title }}">{{ $popular->title }}</a></h2>
                                             <div class='post-snip'>
-                                                <img alt='Verified ' class='post-author-image'
-                                                    src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLptKcQJfwJqYsSQr8_DkoVKEN_OTD9NQdWvOCB_r/w200/pngwing.com%20(1)%20(1).png' />
-                                                <span class='post-author'>Verified </span>
-                                                <span class='post-date'>October 30, 2024</span>
+                                                <span class='post-date'>{{ $popular->created_at->format('M d, Y') }}</span>
                                             </div>
                                         </div>
-                                    </a>
-                                </div>
-                                <div class='popular-post post item1'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/10/fatima-noor-code-d059-8-hours-tk-6000.html'
-                                        title='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaCwvJ8MupKSZbB2Jb37vtD5oPdV0ik_lM7pv74oe/w74-h74-p-k-no-nu/sony-independent-cash-pay-hotel-home-ful-indian-escort-in-pune-9128068_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/10/fatima-noor-code-d059-8-hours-tk-6000.html'
-                                                title='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Fatima
-                                                Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 16, 2024</span>
-                                        </div>
                                     </div>
-                                </div>
-                                <div class='popular-post post item2'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/12/payel-islam-code-d060-8-hours-tk-5200.html'
-                                        title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjigi9rYgLFoOPz0vLgX2Q_-_gi73F3cHun0hftL9Y/w74-h74-p-k-no-nu/20241214_194537.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/12/payel-islam-code-d060-8-hours-tk-5200.html'
-                                                title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Payel
-                                                Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>December 14, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item3'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/10/akhi-islam-code-d057-8-hours-tk-6500.html'
-                                        title='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYuhbSAOqEvWxIebuOziPsAQVuULp-9HqlpefVceZ/w74-h74-p-k-no-nu/sonam-independent-cam-session-real-escort-in-pune-9908478_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/10/akhi-islam-code-d057-8-hours-tk-6500.html'
-                                                title='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Akhi
-                                                Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 16, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item4'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/10/seuli-sarkar-code-d052-8-hours-tk-6000.html'
-                                        title='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuU9E-rIS49Z9C_BxokTwT29IWosSv6-nJGm6gLpj/w74-h74-p-k-no-nu/FB_IMG_1667524275610_1.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/10/seuli-sarkar-code-d052-8-hours-tk-6000.html'
-                                                title='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Seuli
-                                                Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 02, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item5'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/10/sarika-code-d057-8-hours-tk-3500-dhaka.html'
-                                        title='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh158InTKtOhzRoM_cvJ82SOxx4OICJ7gD6b-cKb1V/w74-h74-p-k-no-nu/beautiful_simple_indian_girl_1.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/10/sarika-code-d057-8-hours-tk-3500-dhaka.html'
-                                                title='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sarika
-                                                | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 09, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item6'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/07/beauty-code-d051-8-hours-tk-4800-dhaka.html'
-                                        title='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh39vqZE4aOhe9P4VDGbLVJMRAfYEnRa_VBFOrWBvT/w74-h74-p-k-no-nu/20230331_063317.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/07/beauty-code-d051-8-hours-tk-4800-dhaka.html'
-                                                title='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Beauty
-                                                | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>July 08, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item7'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/10/sela-code-d053-8-hours-tk-4000-dhaka.html'
-                                        title='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiQ8JwWKrS40A_jvZ6jL_yUhhB7v2la40iog_8v7U/w74-h74-p-k-no-nu/sumita-chauhan-indian-escort-in-bangalore-5313360_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/10/sela-code-d053-8-hours-tk-4000-dhaka.html'
-                                                title='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sela
-                                                | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 02, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item8'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='mimi-code-d061-8-hours-tk-7500-dhaka.html'
-                                        title='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUe/w74-h74-p-k-no-nu/SCH-63870841315982-2103213618.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='mimi-code-d061-8-hours-tk-7500-dhaka.html'
-                                                title='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Mimi
-                                                | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>January 22, 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item9'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../../2024/07/sanjida-code-d048-8-hours-tk-5200-dhaka.html'
-                                        title='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf4LTKNwK4GZ8r5QqiX9ABRWkre8SMvJByAcw8rc/w74-h74-p-k-no-nu/3876__user-1658857034.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../../2024/07/sanjida-code-d048-8-hours-tk-5200-dhaka.html'
-                                                title='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sanjida
-                                                | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>July 06, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                    @endif
+                                @endforeach
                             </div>
                         </div>
                         <div class='widget Label' data-version='2' id='Label2'>
@@ -7533,7 +7305,8 @@
                                                 class='label-count'>1</span></a></li>
                                     <li><a class='label-name' href='../../search/label/Banasree.html'>Banasree<span
                                                 class='label-count'>1</span></a></li>
-                                    <li><a class='label-name' href='../../search/label/Busondhara.html'>Busondhara<span
+                                    <li><a class='label-name'
+                                            href='../../search/label/Busondhara.html'>Busondhara<span
                                                 class='label-count'>1</span></a></li>
                                     <li><a class='label-name' href='../../search/label/Dhaka.html'>Dhaka<span
                                                 class='label-count'>1</span></a></li>
@@ -7545,8 +7318,8 @@
                                                 class='label-count'>1</span></a></li>
                                     <li><a class='label-name' href='../../search/label/Gazipura.html'>Gazipura<span
                                                 class='label-count'>1</span></a></li>
-                                    <li><a class='label-name' href='../../search/label/Gulshan%202.html'>Gulshan 2<span
-                                                class='label-count'>1</span></a></li>
+                                    <li><a class='label-name' href='../../search/label/Gulshan%202.html'>Gulshan
+                                            2<span class='label-count'>1</span></a></li>
                                     <li><a class='label-name' href='../../search/label/Khilkhet.html'>Khilkhet<span
                                                 class='label-count'>1</span></a></li>
                                     <li><a class='label-name' href='../../search/label/Mirpur.html'>Mirpur<span
@@ -7661,8 +7434,6 @@
                                         alt="WhatsApp Icon" />
                                 </a>
 
-
-                                </!doctype>
                             </div>
                         </div>
                     </div>
@@ -7673,19 +7444,19 @@
                     <div class='footer-copyright section' id='footer-copyright' name='Footer Attribution'>
                         <div class='widget HTML' data-version='2' id='HTML33'>
                             <div class='widget-content'><span class='copyright-text widget'>Design by - <a
-                                        href='https://www.pikitemplates.com/' id='pikitemplates' rel='dofollow'>Blogger
-                                        Templates</a> | Distributed by <a href='https://www.bloggertemplate.org/'
-                                        rel='dofollow'> Free Blogger Templates</a></span></div>
+                                        href='' id='pikitemplates' rel='dofollow'>Blogger
+                                        Templates</a> | Distributed by <a href='' rel='dofollow'> Free Blogger
+                                        Templates</a></span></div>
                         </div>
                     </div>
                     <div class='footer-checks-menu section' id='footer-checks-menu' name='Footer Menu'>
                         <div class='widget LinkList' data-version='2' id='LinkList8'>
                             <div class='widget-content'>
                                 <ul>
-                                    <li><a href='../../index.html'>Home</a></li>
-                                    <li><a href='../../p/about-us.html'>About</a></li>
-                                    <li><a href='../../p/about-us.html'>Contact us</a></li>
-                                    <li><a href='../../p/about-us.html'>Privacy Policy</a></li>
+                                    <li><a href='/'>Home</a></li>
+                                    <li><a href='/'>About</a></li>
+                                    <li><a href='/'>Contact us</a></li>
+                                    <li><a href='/'>Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -7707,13 +7478,14 @@
                                     placeholder='Name' size='30' type='text' value='' />
                                 <input class='contact-form-email' id='ContactForm1_contact-form-email' name='email'
                                     placeholder='Email*' size='30' type='text' value='' />
-                                <textarea class='contact-form-email-message' cols='25'
-                                    id='ContactForm1_contact-form-email-message' name='email-message'
-                                    placeholder='Message*' rows='5'></textarea>
+                                <textarea class='contact-form-email-message' cols='25' id='ContactForm1_contact-form-email-message'
+                                    name='email-message' placeholder='Message*' rows='5'></textarea>
                                 <input class='contact-form-button contact-form-button-submit'
                                     id='ContactForm1_contact-form-submit' type='button' value='Send' />
-                                <p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'></p>
-                                <p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'>
+                                <p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'>
+                                </p>
+                                <p class='contact-form-success-message'
+                                    id='ContactForm1_contact-form-success-message'>
                                 </p>
                             </form>
                         </div>
@@ -7730,38 +7502,36 @@
             </div>
             <div class='share-wrapper-icons colorful colorful-ico'>
                 <li class='facebook-f'><a class='fa-facebook window-piki' data-height='650'
-                        data-url='https://www.facebook.com/sharer.php?u=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
+                        data-url='https://www.facebook.com/sharer.php?u={{ url()->current(); }}'
                         data-width='550' href='javascript:;' rel='nofollow' title='Facebook'>Facebook</a></li>
                 <li class='twitter'><a class='fa-twitter window-piki' data-height='460'
-                        data-url='https://twitter.com/intent/tweet?url=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html&text=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                        data-url='https://twitter.com/intent/tweet?url={{ url()->current(); }}'
                         data-width='550' href='javascript:;' rel='nofollow' title='Twitter'>Twitter</a></li>
                 <li class='whatsapp'><a class='fa-whatsapp window-piki' data-height='650'
-                        data-url='https://api.whatsapp.com/send?text=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮ | https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
+                        data-url='https://api.whatsapp.com/send?text={{ url()->current(); }}'
                         data-width='550' href='javascript:;' rel='nofollow' title='Whatsapp'>Whatsapp</a></li>
                 <li class='telegram'><a class='fa-telegram window-piki' data-height='460'
-                        data-url='https://telegram.me/share/url?url=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html&text=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                        data-url='https://telegram.me/share/url?url={{ url()->current(); }}'
                         data-width='550' href='javascript:;' rel='nofollow' title='Telegram'>Telegram</a></li>
                 <li class='pinterest'><a class='fa-pinterest window-piki' data-height='750'
-                        data-url='https://www.pinterest.com/pin/create/button/?url=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html&media=&description=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                        data-url='https://www.pinterest.com/pin/create/button/?url={{ url()->current(); }}'
                         data-width='735' href='javascript:;' rel='nofollow' title='Pinterest'>Pinterest</a></li>
                 <li class='linkedin'><a class='fa-linkedin window-piki' data-height='700'
-                        data-url='https://www.linkedin.com/shareArticle?url=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
+                        data-url='https://www.linkedin.com/shareArticle?url={{ url()->current(); }}'
                         data-width='1000' href='javascript:;' rel='nofollow' title='LinkedIn'>LinkedIn</a></li>
                 <li class='reddit'><a class='fa-reddit window-piki' data-height='460'
-                        data-url='https://reddit.com/submit?url=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html&title=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                        data-url='https://reddit.com/submit?url={{ url()->current(); }}'
                         data-width='550' href='javascript:;' rel='nofollow' title='Reddit'>Reddit</a></li>
                 <li class='tumblr'><a class='fa-tumblr window-piki' data-height='460'
-                        data-url='https://www.tumblr.com/share/link?url=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html&title=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                        data-url='https://www.tumblr.com/share/link?url={{ url()->current(); }}'
                         data-width='550' href='javascript:;' rel='nofollow' title='Tumblr'>Tumblr</a></li>
-                <li class='email'><a class='email window-piki' data-height='460'
-                        data-url='mailto:?subject=Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮&body=https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
-                        data-width='550' href='javascript:;' rel='nofollow' title='Email'>Email</a></li>
+               
             </div>
             <div class='copy-section'>
                 <span class='title'>Copy Post Link</span>
                 <div class='copy-post'>
-                    <input id='showlink' readonly='readonly' value='mimi-code-d061-8-hours-tk-7500-dhaka.html' /><button
-                        aria-label='Copy'>Copy</button>
+                    <input id='showlink' readonly='readonly'
+                        value='mimi-code-d061-8-hours-tk-7500-dhaka.html' /><button aria-label='Copy'>Copy</button>
                     <div class='messageDone' id='messageDone'></div>
                 </div>
             </div>
@@ -7778,7 +7548,8 @@
     <div class='overlay'></div>
     <div class='backTop'></div>
     <!--pikitemplates Hosted Plugins -->
-    <script src='cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
- 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
+
 </body>
+
 </html>

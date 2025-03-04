@@ -48,7 +48,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-3">
                                         <label class="form-label">Name *</label>
-                                        <input type="text" name="title" class="form-control" value="{{ $post->title }}" required />
+                                        <input type="text" name="name" class="form-control" value="{{ $post->name }}" required />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -97,6 +97,21 @@
                                     <div class="form-group mb-3">
                                         <label class="form-label">Location</label>
                                         <input type="text" name="location" class="form-control" value="{{ $post->location }}" />
+                                    </div>
+                                </div>
+
+                                
+                                <div class="col-md-12">
+                                    <div class="form-group mb-3">
+                                        <label class="form-label">Title</label>
+                                        <input type="text" name="title" class="form-control" value="{{ $post->title }}" required />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group mb-3">
+                                        <label class="form-label">Description</label>
+                                        <textarea name="description" class="form-control" rows="3">{{ $post->description }}</textarea>
                                     </div>
                                 </div>
 

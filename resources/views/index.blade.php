@@ -93,7 +93,7 @@
     <link href='http://www.pinterest.com/' rel='dns-prefetch' />
     <link href='http://www.linkedin.com/' rel='dns-prefetch' />
     <!-- Font Awesome Brands -->
-    <link href='../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css' rel='stylesheet' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css' rel='stylesheet' />
     <!-- Template Style CSS -->
     <style id='page-skin-1' type='text/css'>
         
@@ -690,7 +690,7 @@
             display: block;
             object-fit: cover;
             z-index: 1;
-            opacity: 0;
+            opacity: 1;
             transition: opacity .30s ease, transform .30s ease
         }
 
@@ -1436,7 +1436,7 @@
 
         #original-menu .widget,
         #original-menu .widget>.widget-title {
-            display: none
+            display: block;
         }
 
         #original-menu .show-menu {
@@ -6874,7 +6874,7 @@
                                             <div class='post-snip' itemprop='author' itemscope='itemscope'
                                                 itemtype='https://schema.org/Person'>
                                                 <img class='post-author-image'
-                                                    src="/assets/verify.png" />
+                                                    src="/assets/img/verify.png" />
                                                 <span class='post-author' itemprop='name'>
                                                     Verified </span>
                                             </div>
@@ -6884,7 +6884,7 @@
                                     @endforeach
                                    
                                 </div>
-                                <div class='blog-pager container' id='blog-pager'>
+                                {{-- <div class='blog-pager container' id='blog-pager'>
                                     <a class='blog-pager-older-link load-more'
                                         data-load='https://www.dhakatravel18.com/search?updated-max=2024-07-08T09:15:00-07:00&max-results=12'
                                         href='javascript:;' id='load-more-link'>
@@ -6894,7 +6894,7 @@
                                     <span class='no-more load-more'>
                                         That is All
                                     </span>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -7099,7 +7099,7 @@
                                 </a>
 
 
-                                </!doctype>
+
                             </div>
                         </div>
                     </div>
@@ -7110,8 +7110,8 @@
                     <div class='footer-copyright section' id='footer-copyright' name='Footer Attribution'>
                         <div class='widget HTML' data-version='2' id='HTML33'>
                             <div class='widget-content'><span class='copyright-text widget'>Design by - <a
-                                        href='https://www.pikitemplates.com/' id='pikitemplates' rel='dofollow'>Blogger
-                                        Templates</a> | Distributed by <a href='https://www.bloggertemplate.org/'
+                                        href='' id='pikitemplates' rel='dofollow'>Blogger
+                                        Templates</a> | Distributed by <a href=''
                                         rel='dofollow'> Free Blogger Templates</a></span></div>
                         </div>
                     </div>
@@ -7142,7 +7142,7 @@
     <div class='overlay'></div>
     <div class='backTop'></div>
     <!--pikitemplates Hosted Plugins -->
-    <script src='cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
     
 </body>
 </html>
