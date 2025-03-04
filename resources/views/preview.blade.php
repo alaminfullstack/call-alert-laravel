@@ -6665,9 +6665,9 @@
                                         <div class='widget Image' data-version='2' id='Image21'>
                                             <a class='SuperLogo-img' href='/'>
                                                 <img alt='DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025'
-                                                    data-normal='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
+                                                    data-normal='/assets/img/call.png'
                                                     height='90' id='darkroom1'
-                                                    src='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
+                                                    src='/assets/img/call.png'
                                                     width='728'>
                                                 </img>
                                             </a>
@@ -6730,11 +6730,11 @@
                                         <h1 class='entry-title'>booking-page 2025</h1>
                                         <div class='post-body entry-content' id='postBody'>
                                             <div class="separator" style="clear: both; text-align: center;"><a
-                                                    href="https://surveyheart.com/form/64187564023911086749ea12"
+                                                    href="#"
                                                     style="margin-left: 1em; margin-right: 1em;" target="_blank"><img
                                                         border="0" data-original-height="1080"
                                                         data-original-width="1080"
-                                                        src="../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqS9Uj7kkM1kFpEjorygD-bMgIPMbJmvLyaTo1KXU/s16000/project_20230223_1820236-01.png" /></a>
+                                                        src="/assets/img/girl.png" /></a>
                                             </div><br />
                                             <div>
                                                 <div class="separator" style="clear: both; text-align: center;">
@@ -6757,7 +6757,7 @@
                                                                             target="_blank"><img border="0"
                                                                                 data-original-height="215"
                                                                                 data-original-width="768"
-                                                                                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhZIWHReLl6qaVIunlFus7BC_RcFRTYQY4UkMgKZv/s16000/Online-Booking-Button-1024x287-768x215.png" /></a>
+                                                                                src="/assets/img/book.png" /></a>
                                                                     </div>
                                                                 </div><br />
                                                             </div>

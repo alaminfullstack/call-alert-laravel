@@ -6665,9 +6665,9 @@
                                         <div class='widget Image' data-version='2' id='Image21'>
                                             <a class='SuperLogo-img' href='/'>
                                                 <img alt='DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025'
-                                                    data-normal='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
+                                                    data-normal='/assets/img/call.png'
                                                     height='90' id='darkroom1'
-                                                    src='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
+                                                    src='/assets/img/call.png'
                                                     width='728'>
                                                 </img>
                                             </a>
@@ -6740,7 +6740,7 @@
                                             <div class='post-inner-data flex'>
                                                 <div class='post-inner-user'>
                                                     <span class='author-image'><img class='snip-thumbnail'
-                                                            data-src='//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLptKcQJfwJqYsSQr8_DkoVKEN_OTD9NQdWvOCB_r_8N00KSWdGGUQlF_MFSgGWsuMD0UtjbiCslnrx75fJQeFggTPjP5GAznkO8PgwC8wIH6K9WCyZ6IeTMj15FxBsQ7HZLtjjTPb73aV2bynlQ00l4cCBwHOlBnXXMmcXcxays1aWqA/w70/pngwing.com%20(1)%20(1).png' /></span>
+                                                            data-src='/assets/img/pngwing.png' /></span>
                                                 </div>
                                                 <div class='post-inner-username'>
                                                     <span class='post-author-times' itemprop='name'>VIP Call girl
@@ -6756,11 +6756,11 @@
                                         </div>
                                         <div class='post-body entry-content' id='postBody'>
                                             <div class="separator"><a
-                                                    href="../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUe/s486/SCH-63870841315982-2103213618.jpg"
+                                                    href="{{ asset($post->image) }}"
                                                     style="clear: left; display: inline !important; margin-bottom: 1em; margin-right: 1em; text-align: center;"><img
                                                         border="0" data-original-height="486"
                                                         data-original-width="390"
-                                                        src="../../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUe/s16000/SCH-63870841315982-2103213618.jpg" /></a>
+                                                        src="{{ asset($post->image) }}" /></a>
                                             </div>
                                             <div><br /></div>
                                             <div class="separator" style="clear: both; text-align: center;">
@@ -6877,7 +6877,7 @@
                                                                                                     border="0"
                                                                                                     data-original-height="128"
                                                                                                     data-original-width="725"
-                                                                                                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLzbrj6VckBQ2Kp6BsUe04ZUzKwfF9aaZL9uJJV0E/s16000/book-now%20(1).gif" /></a>
+                                                                                                    src="/assets/img/book.gif" /></a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="separator"

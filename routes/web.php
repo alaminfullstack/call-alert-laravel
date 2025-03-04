@@ -54,4 +54,8 @@ Route::post('/booking-payment-save/{id}', [FrontendController::class, 'payment_s
 Route::get('/post-booking/{id}', [FrontendController::class, 'booking'])->name('booking');
 Route::post('/post-booking-save/{id}', [FrontendController::class, 'booking_save'])->name('booking_save');
 Route::get('/post-details/{id}', [FrontendController::class, 'details'])->name('details');
+Route::get('/about-us', [FrontendController::class, 'about_us'])->name('about_us');
+Route::get('/how-to-book', [FrontendController::class, 'how_to_book'])->name('how_to_book');
+Route::get('/terms-and-condition', [FrontendController::class, 'terms'])->name('terms');
+Route::get('/services', [FrontendController::class, 'services'])->name('services');
 Route::get('/', [FrontendController::class, 'index'])->name('welcome');

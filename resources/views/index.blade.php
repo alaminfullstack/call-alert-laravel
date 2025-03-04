@@ -6718,7 +6718,7 @@
         <div class='admin-section section' id='admin' name='Theme Options (Admin Panel)'>
             <div class='widget Image' data-version='2' id='Image33'>
                 <script
-                    type='text/javascript'>var noThumb = "../3.bp.blogspot.com/-Yw8BIuvwoSQ/VsjkCIMoltI/AAAAAAAAC4c/s55PW6xEKn0/s1600-r/nth.png";</script>
+                    type='text/javascript'>var noThumb = "/assets/img/nth.png";</script>
             </div>
             <div class='widget LinkList' data-version='2' id='LinkList1'>
                 <script type='text/javascript'>   var commentsSystem = "blogger"; </script>
@@ -6756,9 +6756,9 @@
                                         <div class='widget Image' data-version='2' id='Image21'>
                                             <a class='SuperLogo-img' href='index.html'>
                                                 <img alt='DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025'
-                                                    data-normal='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
+                                                    data-normal='/assets/img/call.png'
                                                     height='90' id='darkroom1'
-                                                    src='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
+                                                    src='/assets/img/call.png'
                                                     width='728'>
                                                 </img>
                                             </a>
@@ -6777,7 +6777,7 @@
                                                 <li itemprop='name'><a href='p/available-service.html'
                                                         itemprop='url'>এপ&#2494;র&#2509;টম&#2503;ন&#2509;ট
                                                         ল&#2495;ষ&#2509;ট দ&#2503;খ&#2497;ন </a></li>
-                                                <li itemprop='name'><a href='https://dhakatours18.xyz/'
+                                                <li itemprop='name'><a href='#'
                                                         itemprop='url'>ইম&#2497; ভ&#2495;ড&#2495;ও
                                                         স&#2494;র&#2509;ভ&#2495;স </a></li>
                                             </ul>
@@ -6792,7 +6792,7 @@
                                 </div>
                                 <div id='search-flex'>
                                     <div class='search-flex-container'>
-                                        <form action='https://www.dhakatravel18.com/search' class='search-form'
+                                        <form action='#' class='search-form'
                                             role='search'>
                                             <input autocomplete='off' class='search-input' name='q' placeholder='Search'
                                                 spellcheck='false' type='search' value='' />
@@ -6820,7 +6820,7 @@
                         <div class="separator" style="clear: both; text-align: center;"><a
                                 href="p/how-to-book-online.html" style="margin-left: 1em; margin-right: 1em;"
                                 target="_blank"><img border="0" data-original-height="720" data-original-width="1280"
-                                    src="../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4iX_NbpBPErPFvJGDwi249qsza2Oj9Aj_KEPGzg2/s16000/20230815_152841_0000%20(2).png" /><!--CSS Code-->
+                                    src="/assets/img/hot.png" /><!--CSS Code-->
                                 <style>
                                     .GeneratedMarquee {
                                         font-family: 'Times New Roman', serif;

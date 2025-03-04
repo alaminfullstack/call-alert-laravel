@@ -109,4 +109,24 @@ class FrontendController extends Controller
     
         return redirect()->route('welcome')->with('success', 'Booking and payment saved successfully.');
     }
+
+    public function services() {
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('pages.service', compact('populars'));
+    }
+
+    public function terms() {
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('pages.terms', compact('populars'));
+    }
+
+    public function how_to_book() {
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('pages.how-to', compact('populars'));
+    }
+
+    public function about_us() {
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('pages.about-us', compact('populars'));
+    }
 }
