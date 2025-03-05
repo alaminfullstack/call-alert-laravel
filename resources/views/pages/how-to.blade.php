@@ -3,10 +3,6 @@
     xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data'
     xmlns:expr='http://www.google.com/2005/gml/expr'>
 
-<!-- Mirrored from www.dhakatravel18.com/p/how-to-book-online.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Mar 2025 14:09:37 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-
 <head>
     <!--- pikitemplates All Packed SEO /-->
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport' />
@@ -86,7 +82,7 @@
     <link href='http://www.pinterest.com/' rel='dns-prefetch' />
     <link href='http://www.linkedin.com/' rel='dns-prefetch' />
     <!-- Font Awesome Brands -->
-    <link href='../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css' rel='stylesheet' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css' rel='stylesheet' />
     <!-- Template Style CSS -->
     <style id='page-skin-1' type='text/css'>
         <!--
@@ -6774,7 +6770,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
     <div id='outer-wrapper'>
         <!-- Header Wrapper -->
         @include('layouts.header')
-        
+
         <div class='flex-section' id='center-container'>
             <div class='container outer-container'>
                 <main id='feed-view'>
@@ -6916,199 +6912,49 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                                 <h3 class='title'>Popular Posts</h3>
                             </div>
                             <div class='widget-content sidebar-posts'>
-                                <div class='popular-post post item0'>
-                                    <a class='post-filter-inner gaint'
-                                        href='../2024/10/payel-islam-code-d060-8-hours-tk-5000.html'
-                                        title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <span class='post-filter-link background-layer image-nos'>
-                                            <img alt='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                                @foreach ($populars as $popular)
+                                    @if($loop->first)
+                                        <div class='popular-post post item{{$loop->iteration}}'>
+                                            <a class='post-filter-inner gaint'
+                                                href="{{ route('details', $popular->id) }}"
+                                                title="{{ $popular->title }}">
+                                                <span class='post-filter-link background-layer image-nos'>
+                                                    <img alt="{{ $popular->title }}"
+                                                        class='snip-thumbnail'
+                                                        data-src="{{ asset($popular->image) }}" src="{{ asset($popular->image) }}" />
+                                                </span>
+                                                <div class='entery-category-fly'>
+                                                    <span class='post-tag'>Available</span>
+                                                    <h2 class='entry-title vcard'>{{ $popular->title }}</h2>
+                                                    <div class='post-snip'>
+                                                        <img alt='Verified' class='post-author-image'
+                                                            src='/assets/img/verify.png' />
+                                                        <span class='post-author'>Verified </span>
+                                                        <span class='post-date'>{{ $popular->created_at->format('M d Y') }}</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    @else 
+                                    <div class='popular-post post item{{$loop->iteration}}'>
+                                        <a class='post-filter-inner image-nos'
+                                            href="{{ route('details', $popular->id) }}"
+                                            title="{{ $popular->title }}">
+                                            <img alt="{{ $popular->title }}"
                                                 class='snip-thumbnail'
-                                                data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvxpTt3pENrIxfStzhDX5ioFPUi3o1MiAtDi29QbK/w74-h74-p-k-no-nu/20241030_210531.jpg' />
-                                        </span>
-                                        <div class='entery-category-fly'>
-                                            <span class='post-tag'>Available</span>
-                                            <h2 class='entry-title vcard'>Payel Islam | CODE : D060 | 8 Hours Tk: 5200
-                                                | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</h2>
+                                                data-src="{{ asset($popular->image) }}" src="{{ asset($popular->image) }}" />
+                                        </a>
+                                        <div class='entery-category-box'>
+                                            <h2 class='entry-title vcard'><a
+                                                    href="{{ route('details', $popular->id) }}"
+                                                    title="{{ $popular->title }}">{{ $popular->title }}</a></h2>
                                             <div class='post-snip'>
-                                                <img alt='Verified ' class='post-author-image'
-                                                    src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLptKcQJfwJqYsSQr8_DkoVKEN_OTD9NQdWvOCB_r/w200/pngwing.com%20(1)%20(1).png' />
-                                                <span class='post-author'>Verified </span>
-                                                <span class='post-date'>October 30, 2024</span>
+                                                <span class='post-date'>{{ $popular->created_at->format('M d, Y') }}</span>
                                             </div>
                                         </div>
-                                    </a>
-                                </div>
-                                <div class='popular-post post item1'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/10/fatima-noor-code-d059-8-hours-tk-6000.html'
-                                        title='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaCwvJ8MupKSZbB2Jb37vtD5oPdV0ik_lM7pv74oe/w74-h74-p-k-no-nu/sony-independent-cash-pay-hotel-home-ful-indian-escort-in-pune-9128068_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/10/fatima-noor-code-d059-8-hours-tk-6000.html'
-                                                title='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Fatima
-                                                Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 16, 2024</span>
-                                        </div>
                                     </div>
-                                </div>
-                                <div class='popular-post post item2'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/12/payel-islam-code-d060-8-hours-tk-5200.html'
-                                        title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjigi9rYgLFoOPz0vLgX2Q_-_gi73F3cHun0hftL9Y/w74-h74-p-k-no-nu/20241214_194537.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/12/payel-islam-code-d060-8-hours-tk-5200.html'
-                                                title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Payel
-                                                Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>December 14, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item3'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/10/akhi-islam-code-d057-8-hours-tk-6500.html'
-                                        title='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYuhbSAOqEvWxIebuOziPsAQVuULp-9HqlpefVceZ/w74-h74-p-k-no-nu/sonam-independent-cam-session-real-escort-in-pune-9908478_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/10/akhi-islam-code-d057-8-hours-tk-6500.html'
-                                                title='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Akhi
-                                                Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 16, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item4'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/10/seuli-sarkar-code-d052-8-hours-tk-6000.html'
-                                        title='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuU9E-rIS49Z9C_BxokTwT29IWosSv6-nJGm6gLpj/w74-h74-p-k-no-nu/FB_IMG_1667524275610_1.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/10/seuli-sarkar-code-d052-8-hours-tk-6000.html'
-                                                title='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Seuli
-                                                Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 02, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item5'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/10/sarika-code-d057-8-hours-tk-3500-dhaka.html'
-                                        title='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh158InTKtOhzRoM_cvJ82SOxx4OICJ7gD6b-cKb1V/w74-h74-p-k-no-nu/beautiful_simple_indian_girl_1.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/10/sarika-code-d057-8-hours-tk-3500-dhaka.html'
-                                                title='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sarika
-                                                | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 09, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item6'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/07/beauty-code-d051-8-hours-tk-4800-dhaka.html'
-                                        title='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh39vqZE4aOhe9P4VDGbLVJMRAfYEnRa_VBFOrWBvT/w74-h74-p-k-no-nu/20230331_063317.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/07/beauty-code-d051-8-hours-tk-4800-dhaka.html'
-                                                title='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Beauty
-                                                | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>July 08, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item7'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/10/sela-code-d053-8-hours-tk-4000-dhaka.html'
-                                        title='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiQ8JwWKrS40A_jvZ6jL_yUhhB7v2la40iog_8v7U/w74-h74-p-k-no-nu/sumita-chauhan-indian-escort-in-bangalore-5313360_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/10/sela-code-d053-8-hours-tk-4000-dhaka.html'
-                                                title='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sela
-                                                | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 02, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item8'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
-                                        title='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUe/w74-h74-p-k-no-nu/SCH-63870841315982-2103213618.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
-                                                title='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Mimi
-                                                | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>January 22, 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item9'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='../2024/07/sanjida-code-d048-8-hours-tk-5200-dhaka.html'
-                                        title='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='../../blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf4LTKNwK4GZ8r5QqiX9ABRWkre8SMvJByAcw8rc/w74-h74-p-k-no-nu/3876__user-1658857034.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='../2024/07/sanjida-code-d048-8-hours-tk-5200-dhaka.html'
-                                                title='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sanjida
-                                                | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>July 06, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                    @endif
+                                @endforeach
                             </div>
                         </div>
                         <div class='widget Label' data-version='2' id='Label2'>
@@ -7323,8 +7169,8 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
     </div>
     <div class='overlay'></div>
     <div class='backTop'></div>
-    <!--pikitemplates Hosted Plugins -->
-    <script src='../../cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
     <script type='text/javascript'>
         var pikiMessages = {
             showMore: "Show more",
@@ -7332,10 +7178,9 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
             noResults: "No results found",
         }
     </script>
-    <!--pikitemplates LocalHost Plugins -->
+
     <script type='text/javascript'>
         //<![CDATA[
-        <!-- jQuery replaceText | http://benalman.com/projects/jquery-replacetext-plugin/ -->
         (function($) {
             $.fn.replaceText = function(b, a, c) {
                 return this.each(function() {
@@ -7362,8 +7207,6 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
             }
         })(jQuery);
 
-        <
-        !--Theia Sticky Sidebar | v1 .7 .0 - https: //github.com/WeCodePixels/theia-sticky-sidebar -->
             ! function(a) {
                 a.fn.theiaStickySidebar = function(h) {
                     function g(k, i) {
@@ -7593,8 +7436,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 }
             }(jQuery);
 
-        <
-        !--Menuiki jQuery Plugin V2 .0 .0 | https: //github.com/pikitemplates/scripts -->
+
             ! function(e) {
                 e.fn.Menuiki = function() {
                     var n = this;
@@ -7618,8 +7460,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 }
             }(jQuery);
 
-        <
-        !--Lazy Loading jQuery Plugin | v1 .5 .0 | https: //github.com/pikitemplates/scripts -->
+    
             ! function(t) {
                 t.fn.lazyimg = function() {
                     return this.each(function() {
@@ -7650,7 +7491,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
             }(jQuery);
         //]]>
     </script>
-    <!-- PikiTemplates Under License Creative Common Rights (CC-3.0) JS Copyrighted -->
+
     <script type='text/javascript'>
         //<![CDATA[
         function _0x483fac(n, t, e, r, i) {
@@ -7667,7 +7508,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 "/w55-h55-p-k-no-nu", "replaceText", ".grid-posts .hentry .snip-thumbnail", "ARVSC", "target",
                 '</h2><div class="post-snip"><img class="post-author-image" src="', "aeLFF", "show-share", "soDfN",
                 "published", "sp-bt",
-                "../../1.bp.blogspot.com/-LKSLshqXW6E/YSZH9r_szcI/AAAAAAAACHA/RseV8bfVcLw4tQIpisLh2cjCDDM4i0fJwCLcBGAsYHQ/s1600/avatar%20piki.png",
+                "//1.bp.blogspot.com/-LKSLshqXW6E/YSZH9r_szcI/AAAAAAAACHA/RseV8bfVcLw4tQIpisLh2cjCDDM4i0fJwCLcBGAsYHQ/s1600/avatar%2Bpiki.png",
                 "/feeds/posts/default?alt=json&max-results=", ".disqus.com/embed.js", "text/javascript",
                 "/maxresdefault.", ".sibForm .widget-content",
                 '"/></span><span class="entery-category-fly"><span class="post-tag">', "OvlED", "trim",
@@ -7702,21 +7543,21 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 '<div class="video-frame"><iframe id="youtube" width="100%" height="360" src="https://www.youtube.com/embed/$1" frameborder="0" allow="autoplay; accelerometer; gyroscope; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>',
                 "removeClass", "_blank", ".comment-replybox-thread", "rbSJQ",
                 '"><span class="post-filter-link background-layer ', "pIbYH", "animate", "join",
-                ".Ooiix-author .description-links", "createElement", "jiwVS",
-                "../../img1.blogblog.com/img/b16-rounded.gif", "async", "UIZIC", "onScroll", ".related-tag", "attr",
-                "appendChild", "img.snip-thumbnail", "SUBgC", "comment-section-visible", "active-search spring-open",
-                "oglCr", "KBJtm", ".mobile-menu ul .mega-menu", "a#pikitemplates:visible",
-                ".footer-primary ul.colorful-ico", "random", "featured", "> .m-sub", "9834grWXfV", "content", "PywNB",
-                "replace", "aZYEn", "../feeds/posts/default/-/index.html", "find", "file", "a.next-post-link",
-                "/default.", "#blog-pager .loading", "BCrlJ", "noResults", "#Ooiix-header .hamburger-container",
-                "KrNQE", "<div>", "oZZHA", "IpAlX", ".widget-content", "xyXnX", "JSDRC", "ZoTzD", "first", "#comments",
-                "3601rViRLI", "copy", "jFWrR", "(caps)", "sp-bt ", "69969abEbxS", ".tune, .copy-post",
-                "#blog-pager .no-more", "img.youtube.com", "getElementById", '"><a class="fa-', "label", "video-nos",
-                "dNAtG", "dzkJd", "comments-system-default", "</span></div></div></div>", "pRTIt", ".description-links",
-                "VbauJ", ".social-mobile", "querySelector", "facebook", "lazyimg", "hxsBj", "hide", "info",
+                ".Ooiix-author .description-links", "createElement", "jiwVS", "//img1.blogblog.com/img/b16-rounded.gif",
+                "async", "UIZIC", "onScroll", ".related-tag", "attr", "appendChild", "img.snip-thumbnail", "SUBgC",
+                "comment-section-visible", "active-search spring-open", "oglCr", "KBJtm", ".mobile-menu ul .mega-menu",
+                "a#pikitemplates:visible", ".footer-primary ul.colorful-ico", "random", "featured", "> .m-sub",
+                "9834grWXfV", "content", "PywNB", "replace", "aZYEn", "/feeds/posts/default/-/", "find", "file",
+                "a.next-post-link", "/default.", "#blog-pager .loading", "BCrlJ", "noResults",
+                "#Ooiix-header .hamburger-container", "KrNQE", "<div>", "oZZHA", "IpAlX", ".widget-content", "xyXnX",
+                "JSDRC", "ZoTzD", "first", "#comments", "3601rViRLI", "copy", "jFWrR", "(caps)", "sp-bt ",
+                "69969abEbxS", ".tune, .copy-post", "#blog-pager .no-more", "img.youtube.com", "getElementById",
+                '"><a class="fa-', "label", "video-nos", "dNAtG", "dzkJd", "comments-system-default",
+                "</span></div></div></div>", "pRTIt", ".description-links", "VbauJ", ".social-mobile", "querySelector",
+                "facebook", "lazyimg", "hxsBj", "hide", "info",
                 "<style>.flex-section .outer-container{flex-direction:row-reverse;}</style>", "WQXPk", "getbutton",
                 '<div class="alert-message warning">', "#show-comment-form", "image-nos", ".mobile-menu ul li a",
-                ".lazy-img", "tmWHg", "removeAttr", "../../resources.blogblog.com/img/blank.gif",
+                ".lazy-img", "tmWHg", "removeAttr", "//resources.blogblog.com/img/blank.gif",
                 "trending || featured || comments || related", "qMdZA", "showlink", '<li class="',
                 '<div class="comment-list">', "AOmtq", "name", "open-iki", "VTvFm", "QxHca",
                 "/feeds/posts/default?alt=json&orderby=updated&start-index=", "OuUNA", "10fsHGon", "sonwv",
@@ -7754,14 +7595,14 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 '"><img class="snip-thumbnail" alt="', "copied",
                 '"/></a></div></div><div class="featured-meta"><h2 class="entry-title"><a href="', ".Ooiix-comments",
                 '" data-src="', "7NVJLJy", "round", "script", "theiaStickySidebar", "kJyer",
-                "../../img1.blogblog.com/img/blank.gif", "media$thumbnail", "CuRpw", "additionalMarginTop", "focus",
+                "//img1.blogblog.com/img/blank.gif", "media$thumbnail", "CuRpw", "additionalMarginTop", "focus",
                 ".hentry h1.entry-title", "noTitle", "2667784EsvZlH", "nvkmD", '<pre class="code-box">', "substr",
                 "href", ".comments .toplevel-thread > #top-continue", "parent", "src", "a#pikitemplates", "4236kKRzhW",
                 "5830083XfbWPd", "BeTgG", "icon", "MPLGk", "drop-down", '<div id="disqus_thread"/>', "Whyzf", "qmpsW",
                 "toLowerCase", "FseBj", "main-button button l-bt", "split", "hEndU",
                 ".comments .toplevel-thread > ol > .comment .comment-actions .comment-reply", "xkhGK", "alternate",
                 "#mobile-menu", '<img src="$1"/>', "grvjs", "json", '<div class="alert-message success">',
-                "../../1.bp.blogspot.com/-QN2lgvtYZco/YN3mUSryAVI/AAAAAAAAADs/KrR-etCcvUMcPl06jopTs9pzq59IAXhMQCLcBGAsYHQ/w74-h74-p-k-no-nu/avatar.jpg",
+                "//1.bp.blogspot.com/-QN2lgvtYZco/YN3mUSryAVI/AAAAAAAAADs/KrR-etCcvUMcPl06jopTs9pzq59IAXhMQCLcBGAsYHQ/w74-h74-p-k-no-nu/avatar.jpg",
                 "/w74-h74-p-k-no-nu", "#post-placeholder", "off", "#center-container > .container", "color",
                 "a.prev-post-link", "LvPSn", "PQNsy", "SJjXV", "lqWRK", "#feed-view, #sidebar-container",
                 ".post-prev a .navigation-posts p"
@@ -7904,9 +7745,9 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 if (t(1076, 1203) !== t(1715, 1564)) {
                     var c = $(i(0, 0, 10, -96))[i(0, 0, -602, -418)](n)[o(-71, 0, 54)](o(50, 0, 144))[t(1345,
                             1509)]()[e(-467, -253)](r(1276, 0, 1429)),
-                        u = c[r(1423, 0, 1636)]("../index.html");
+                        u = c[r(1423, 0, 1636)]("/");
                     u || (u = 0);
-                    var a = c[i(0, 0, -151, -218)]("../index.html", u - 1);
+                    var a = c[i(0, 0, -151, -218)]("/", u - 1);
                     a || (a = 0);
                     var f = c[e(-494, -270)](a, u);
                     return (f[t(1200, 1352)](/((\/s[0-9])|(\/w[0-9]))+/g) || "/d" == f) && (f = r(1301, 0,
@@ -8393,9 +8234,9 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 if (o(0, 1323, 1314) !== f(0, -453, -415)) {
                     var x, _ = $(this);
                     if (2 === (x = (x = _[o(0, 1407, 1408)]()[s(0, 1486, 1334)]())[i(0, 0, 546,
-                            375)]("../index.html"))[f(0, -301, -244)])
+                            375)]("/"))[f(0, -301, -244)])
                         if (i(0, 0, 279, 505) === i(0, 0, 577, 734)) {
-                            var d = _0x23cbd8[o(0, 1372, 1226)]("../index.html");
+                            var d = _0x23cbd8[o(0, 1372, 1226)]("/");
                             !_0x5a1585(d[0]) && (_0x424a59 = d[0], _0xc05127 = d[1], _0x29c6f8 = d[
                                 2], _0x349451(_0x12a46a).on(o(0, 1345, 1568), (
                         function n() {
@@ -8468,40 +8309,40 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 else {
                     var d, l = $(this);
                     2 === (d = (d = l[x(0, 0, 851, 1076)]()[f(71, 0, 0, 0, -64)]())[s(0, 626, 0, 0,
-                        521)]("../index.html"))[a(1467, 0, 0, 0, 1268)] && (a(1368, 0, 0, 0,
-                            1496) === f(-24, 0, 0, 0, 188) ? _0x21622a(_0x2fd8cb)[a(1252, 0, 0,
-                            0, 1379)]() + _0xeb5ca4(_0x4833bb)[_(0, 0, 1328, 0, 1133)]() >=
-                        _0x104a43[a(1457, 0, 0, 0, 1329)]()[x(0, 0, 701, 801)] && (_0x138713(
-                            _0xac5350)[a(1125, 0, 0, 0, 1256)](s(0, 968, 0, 0, 1042),
-                            _0x3c49dd), _0x17cc53(_0x125f83, _0x1396b1, _0x3ec694,
-                            _0x59fba0)) : (i = d[0], e = d[1], x(0, 0, 1085, 1132) === i && (t =
-                            3), $(window).on(s(0, 968, 0, 0, 773), (function n() {
-                            function r(n, t, e, r, i) {
-                                return f(n - 880, 0, 0, 0, r)
-                            }
+                        521)]("/"))[a(1467, 0, 0, 0, 1268)] && (a(1368, 0, 0, 0, 1496) === f(-
+                            24, 0, 0, 0, 188) ? _0x21622a(_0x2fd8cb)[a(1252, 0, 0, 0, 1379)]() +
+                        _0xeb5ca4(_0x4833bb)[_(0, 0, 1328, 0, 1133)]() >= _0x104a43[a(1457, 0,
+                            0, 0, 1329)]()[x(0, 0, 701, 801)] && (_0x138713(_0xac5350)[a(1125,
+                            0, 0, 0, 1256)](s(0, 968, 0, 0, 1042), _0x3c49dd), _0x17cc53(
+                            _0x125f83, _0x1396b1, _0x3ec694, _0x59fba0)) : (i = d[0], e = d[1],
+                            x(0, 0, 1085, 1132) === i && (t = 3), $(window).on(s(0, 968, 0, 0,
+                                773), (function n() {
+                                function r(n, t, e, r, i) {
+                                    return f(n - 880, 0, 0, 0, r)
+                                }
 
-                            function o(n, t, e, r, i) {
-                                return a(n - -851, 0, 0, 0, i)
-                            }
+                                function o(n, t, e, r, i) {
+                                    return a(n - -851, 0, 0, 0, i)
+                                }
 
-                            function u(n, t, e, r, i) {
-                                return x(0, 0, r, i - -701)
-                            }
+                                function u(n, t, e, r, i) {
+                                    return x(0, 0, r, i - -701)
+                                }
 
-                            function _(n, t, e, r, i) {
-                                return x(0, 0, n, r - -1200)
-                            }
-                            var d, b;
-                            r(900, 0, 0, 989) !== r(900, 0, 0, 923) ? (_0x4d1e5a[_(-
-                                    189, 0, 0, -148)] = r(1038, 0, 0, 875),
-                                _0x9229da(u(0, 0, 0, 572, 394))[o(471, 0, 0, 0,
-                                    561)](_(-180, 0, 0, -343))) : $(window)[o(
-                                401, 0, 0, 0, 344)]() + $(window)[(d = 693, b =
-                                674, s(0, b - -102, 0, 0, d))]() >= l[_(249, 0,
-                                0, 39)]()[r(789, 0, 0, 778)] && ($(window)[u(0,
-                                    0, 0, 138, 206)](u(0, 0, 0, 359, 535), n),
-                                c(l, t, e, i))
-                        }))[_(0, 0, 1255, 0, 1058)](_(0, 0, 1317, 0, 1187))))
+                                function _(n, t, e, r, i) {
+                                    return x(0, 0, n, r - -1200)
+                                }
+                                var d, b;
+                                r(900, 0, 0, 989) !== r(900, 0, 0, 923) ? (_0x4d1e5a[_(-
+                                        189, 0, 0, -148)] = r(1038, 0, 0, 875),
+                                    _0x9229da(u(0, 0, 0, 572, 394))[o(471, 0, 0, 0,
+                                        561)](_(-180, 0, 0, -343))) : $(window)[o(
+                                    401, 0, 0, 0, 344)]() + $(window)[(d = 693, b =
+                                    674, s(0, b - -102, 0, 0, d))]() >= l[_(249, 0,
+                                    0, 39)]()[r(789, 0, 0, 778)] && ($(window)[u(0,
+                                        0, 0, 138, 206)](u(0, 0, 0, 359, 535), n),
+                                    c(l, t, e, i))
+                            }))[_(0, 0, 1255, 0, 1058)](_(0, 0, 1317, 0, 1187))))
                 }
             })), $(u(197, 0, 0, 0, 208))[u(-77, 0, 0, 0, -132)]((function(n, t, e) {
                 function i(n, t, e, i, o) {
@@ -8559,7 +8400,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                     if (v[i(0, 0, 1394, 1390)](s(0, 1193, 0, 1326)) || v[s(0, 1190, 0, 1169)](i(0,
                             0, 1227, 1227)))
                         if (f(0, 0, 890, 880) === i(0, 0, 1622, 1636)) {
-                            var h = v[i(0, 0, 1289, 1329)]("../index.html");
+                            var h = v[i(0, 0, 1289, 1329)]("/");
                             !isNaN(h[0]) && (a(0, 0, 231, 0, 176) === s(0, 1448, 0, 1680) ?
                                 _0x148259(_0x3285b7)[x(0, 1330, 0, 1285)]() + _0x4b9094(
                                     _0x5b3518)[i(0, 0, 1439, 1458)]() >= _0x19d8d5[i(0, 0, 1634,
@@ -8824,7 +8665,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                             x = s[a(-100, -186)]();
                         if (x[a(-177, -80)](r(0, -448, 0, -289)) || x[u(0, 0, -414, 0, -554)](e(437, 0,
                                 0, 397))) {
-                            var _ = x[r(0, -556, 0, -382)]("../index.html");
+                            var _ = x[r(0, -556, 0, -382)]("/");
                             !_0x1d4f43(_[0]) && (_0x1ea9ed = _[0], _0x4e2d76 = _[1], _0x5af584 = _[2],
                                 _0x4a2395(_0xbb48b7).on(c(0, 0, 1279, 1443), (function n() {
                                     function t(n, t, e, r, i) {
@@ -9336,9 +9177,9 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                                 var x = _0x5764ac(i(0, 0, 282, 178))[u(-265, -360)](_0x469f97)[o(665, 0,
                                         0, 0, 697)](o(899, 0, 0, 0, 818))[o(864, 0, 0, 0, 713)]()[e(0,
                                         0, 1317, 0, 1428)](u(-212, -144)),
-                                    _ = x[u(-65, -56)]("../index.html");
+                                    _ = x[u(-65, -56)]("/");
                                 _ || (_ = 0);
-                                var d = x[i(0, 0, 191, 56)]("../index.html", _ - 1);
+                                var d = x[i(0, 0, 191, 56)]("/", _ - 1);
                                 d || (d = 0);
                                 var l = x[c(0, 0, 853, 930)](d, _);
                                 return (l[o(469, 0, 0, 0, 556)](/((\/s[0-9])|(\/w[0-9]))+/g) || "/d" ==
@@ -9534,11 +9375,11 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                             } else {
                                 var p, m = _0x5be3cc(this);
                                 2 === (p = (p = m[i(0, 0, 0, -95, 15)]()[i(0, 0, 0, -
-                                    208, -428)]())[a(0, 1279, 0, 0, 1058)](
-                                    "../index.html"))[a(0, 1634, 0, 0, 1678)] && (
-                                    _0x3ece54 = p[0], _0x4aad24 = p[1], n(0, 0, -38,
-                                        -20) === _0x289fa5 && (_0x4103bc = 3),
-                                    _0x478a9e(_0x5cbe51).on(i(0, 0, 0, 65, 265), (
+                                    208, -428)]())[a(0, 1279, 0, 0, 1058)]("/"))[a(
+                                    0, 1634, 0, 0, 1678)] && (_0x3ece54 = p[0],
+                                    _0x4aad24 = p[1], n(0, 0, -38, -20) ===
+                                    _0x289fa5 && (_0x4103bc = 3), _0x478a9e(
+                                        _0x5cbe51).on(i(0, 0, 0, 65, 265), (
                                         function n() {
                                             function e(n, e, r, i, o) {
                                                 return t(i, 0, 0, r - -509)
@@ -9782,20 +9623,20 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                     if (t(0, 1543, 1451) === t(0, 1506, 1609)) {
                         var u, a = _0x71a823(this);
                         2 === (u = (u = a[i(0, 0, 313, 452)]()[e(0, 761, 601)]())[i(0, 0, 312, 270)](
-                            "../index.html"))[e(0, 1047, 1024)] && (_0x2e4add = u[0], _0x19fe2e = u[
-                            1], c(0, 0, 659, 858) === _0x23f28b && (_0x1de3cf = 4), _0x1931dc(
-                            _0x38a749).on(t(0, 1625, 1810), (function n() {
-                            function r(n, t, e, r, i) {
-                                return c(0, 0, n, r - -727)
-                            }
-                            var i, o, u, f;
-                            _0x560432(_0x464cbc)[r(17, 0, 0, 222)]() + _0x208315(
-                                _0x2b7e21)[r(311, 0, 0, 232)]() >= a[(u = 1336, f =
-                                1526, t(0, f - -102, u))]()[r(-182, 0, 0, -11)] && (
-                                _0xab7d16(_0x371231)[(i = 242, o = 182, t(0, i - -
-                                    1054, o))](e(0, -186 - -1220, 16), n),
-                                _0x396c1b(a, _0x2af510, _0x3b0e70, _0x5dde2a))
-                        }))[n(872, 0, 771)](c(0, 0, 1102, 948)))
+                            "/"))[e(0, 1047, 1024)] && (_0x2e4add = u[0], _0x19fe2e = u[1], c(0, 0,
+                            659, 858) === _0x23f28b && (_0x1de3cf = 4), _0x1931dc(_0x38a749).on(
+                            t(0, 1625, 1810), (function n() {
+                                function r(n, t, e, r, i) {
+                                    return c(0, 0, n, r - -727)
+                                }
+                                var i, o, u, f;
+                                _0x560432(_0x464cbc)[r(17, 0, 0, 222)]() + _0x208315(
+                                    _0x2b7e21)[r(311, 0, 0, 232)]() >= a[(u = 1336, f =
+                                    1526, t(0, f - -102, u))]()[r(-182, 0, 0, -11)] && (
+                                    _0xab7d16(_0x371231)[(i = 242, o = 182, t(0, i - -
+                                        1054, o))](e(0, -186 - -1220, 16), n),
+                                    _0x396c1b(a, _0x2af510, _0x3b0e70, _0x5dde2a))
+                            }))[n(872, 0, 771)](c(0, 0, 1102, 948)))
                     } else $(this)[i(0, 0, 343, 496)](t(0, 1337, 1146), n(685, 0, 905))
                 })), $(r(0, 82, 0, 0, 121))[r(0, 100, 0, 0, 76)]((function() {
                     function e(t, e, r, i, o) {
@@ -10160,354 +10001,5 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
         }));
         //]]>
     </script>
-    <!-- Blogger Default Widget Scripts -->
-
-    <script type="text/javascript" src="../../www.blogger.com/static/v1/widgets/2725212210-widgets.js"></script>
-    <script type='text/javascript'>
-        window['__wavt'] = 'AOuZoY7neuXnnxoQD1bjbzshWl2Wz7EenQ:1741010918365';
-        _WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1473765670338329414', 'how-to-book-online.html',
-            '1473765670338329414');
-        _WidgetManager._SetDataContext([{
-            'name': 'blog',
-            'data': {
-                'blogId': '1473765670338329414',
-                'title': 'DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025',
-                'url': 'https://www.dhakatravel18.com/p/how-to-book-online.html',
-                'canonicalUrl': 'https://www.dhakatravel18.com/p/how-to-book-online.html',
-                'homepageUrl': 'https://www.dhakatravel18.com/',
-                'searchUrl': 'https://www.dhakatravel18.com/search',
-                'canonicalHomepageUrl': 'https://www.dhakatravel18.com/',
-                'blogspotFaviconUrl': 'https://www.dhakatravel18.com/favicon.ico',
-                'bloggerUrl': 'https://www.blogger.com',
-                'hasCustomDomain': true,
-                'httpsEnabled': true,
-                'enabledCommentProfileImages': true,
-                'gPlusViewType': 'FILTERED_POSTMOD',
-                'adultContent': false,
-                'analyticsAccountNumber': '',
-                'encoding': 'UTF-8',
-                'locale': 'en',
-                'localeUnderscoreDelimited': 'en',
-                'languageDirection': 'ltr',
-                'isPrivate': false,
-                'isMobile': false,
-                'isMobileRequest': false,
-                'mobileClass': '',
-                'isPrivateBlog': false,
-                'isDynamicViewsAvailable': true,
-                'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - Atom\x22 href\x3d\x22https://www.dhakatravel18.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - RSS\x22 href\x3d\x22https://www.dhakatravel18.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/1473765670338329414/posts/default\x22 /\x3e\n',
-                'meTag': '',
-                'adsenseHostId': 'ca-host-pub-1556223355139109',
-                'adsenseHasAds': false,
-                'adsenseAutoAds': false,
-                'boqCommentIframeForm': true,
-                'loginRedirectParam': '',
-                'view': '',
-                'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
-                'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/4f2645036361bb20',
-                'plusOneApiSrc': 'https://apis.google.com/js/platform.js',
-                'disableGComments': true,
-                'interstitialAccepted': false,
-                'sharing': {
-                    'platforms': [{
-                        'name': 'Get link',
-                        'key': 'link',
-                        'shareMessage': 'Get link',
-                        'target': ''
-                    }, {
-                        'name': 'Facebook',
-                        'key': 'facebook',
-                        'shareMessage': 'Share to Facebook',
-                        'target': 'facebook'
-                    }, {
-                        'name': 'BlogThis!',
-                        'key': 'blogThis',
-                        'shareMessage': 'BlogThis!',
-                        'target': 'blog'
-                    }, {
-                        'name': 'X',
-                        'key': 'twitter',
-                        'shareMessage': 'Share to X',
-                        'target': 'twitter'
-                    }, {
-                        'name': 'Pinterest',
-                        'key': 'pinterest',
-                        'shareMessage': 'Share to Pinterest',
-                        'target': 'pinterest'
-                    }, {
-                        'name': 'Email',
-                        'key': 'email',
-                        'shareMessage': 'Email',
-                        'target': 'email'
-                    }],
-                    'disableGooglePlus': true,
-                    'googlePlusShareButtonWidth': 0,
-                    'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'
-                },
-                'hasCustomJumpLinkMessage': false,
-                'jumpLinkMessage': 'Read more',
-                'pageType': 'static_page',
-                'pageId': '8407162772061317573',
-                'pageName': 'How to book Online ',
-                'pageTitle': 'DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025: How to book Online ',
-                'metaDescription': ''
-            }
-        }, {
-            'name': 'features',
-            'data': {}
-        }, {
-            'name': 'messages',
-            'data': {
-                'edit': 'Edit',
-                'linkCopiedToClipboard': 'Link copied to clipboard!',
-                'ok': 'Ok',
-                'postLink': 'Post Link'
-            }
-        }, {
-            'name': 'template',
-            'data': {
-                'name': 'custom',
-                'localizedName': 'Custom',
-                'isResponsive': true,
-                'isAlternateRendering': false,
-                'isCustom': true
-            }
-        }, {
-            'name': 'view',
-            'data': {
-                'classic': {
-                    'name': 'classic',
-                    'url': '?view\x3dclassic'
-                },
-                'flipcard': {
-                    'name': 'flipcard',
-                    'url': '?view\x3dflipcard'
-                },
-                'magazine': {
-                    'name': 'magazine',
-                    'url': '?view\x3dmagazine'
-                },
-                'mosaic': {
-                    'name': 'mosaic',
-                    'url': '?view\x3dmosaic'
-                },
-                'sidebar': {
-                    'name': 'sidebar',
-                    'url': '?view\x3dsidebar'
-                },
-                'snapshot': {
-                    'name': 'snapshot',
-                    'url': '?view\x3dsnapshot'
-                },
-                'timeslide': {
-                    'name': 'timeslide',
-                    'url': '?view\x3dtimeslide'
-                },
-                'isMobile': false,
-                'title': 'How to book Online ',
-                'description': 'DHAKA TRAVEL 18, Dhakatravel18, Dhaka travel 18, BD CALL GIRL SERVICE, DHAKA CALL GIRL SERVICE, Bangladeshi Call girl Service, BD CALL GIRL AGENCY,',
-                'url': 'https://www.dhakatravel18.com/p/how-to-book-online.html',
-                'type': 'item',
-                'isSingleItem': true,
-                'isMultipleItems': false,
-                'isError': false,
-                'isPage': true,
-                'isPost': false,
-                'isHomepage': false,
-                'isArchive': false,
-                'isLabelSearch': false,
-                'pageId': 8407162772061317573
-            }
-        }, {
-            'name': 'widgets',
-            'data': [{
-                'title': 'No Thumbnail',
-                'type': 'Image',
-                'sectionId': 'admin',
-                'id': 'Image33'
-            }, {
-                'title': 'Variables / Comments',
-                'type': 'LinkList',
-                'sectionId': 'admin',
-                'id': 'LinkList1'
-            }, {
-                'title': 'Related Post / Show Texts',
-                'type': 'LinkList',
-                'sectionId': 'admin',
-                'id': 'LinkList2'
-            }, {
-                'title': 'Lazy Scrolls / More Text',
-                'type': 'LinkList',
-                'sectionId': 'admin',
-                'id': 'LinkList3'
-            }, {
-                'title': '',
-                'type': 'Image',
-                'sectionId': 'header-room1',
-                'id': 'Image21'
-            }, {
-                'title': 'Main Menu',
-                'type': 'LinkList',
-                'sectionId': 'original-menu',
-                'id': 'LinkList12'
-            }, {
-                'title': '',
-                'type': 'HTML',
-                'sectionId': 'main-ads1',
-                'id': 'HTML1'
-            }, {
-                'title': 'Blog Posts',
-                'type': 'Blog',
-                'sectionId': 'main',
-                'id': 'Blog1',
-                'posts': [{
-                    'id': '8407162772061317573',
-                    'title': 'How to book Online ',
-                    'showInlineAds': false
-                }],
-                'headerByline': {
-                    'regionName': 'header1',
-                    'items': [{
-                        'name': 'share',
-                        'label': ''
-                    }, {
-                        'name': 'author',
-                        'label': 'VIP Call girl Service '
-                    }]
-                },
-                'footerBylines': [{
-                    'regionName': 'footer2',
-                    'items': [{
-                        'name': 'labels',
-                        'label': 'Tags'
-                    }]
-                }],
-                'allBylineItems': [{
-                    'name': 'share',
-                    'label': ''
-                }, {
-                    'name': 'author',
-                    'label': 'VIP Call girl Service '
-                }, {
-                    'name': 'labels',
-                    'label': 'Tags'
-                }]
-            }, {
-                'title': 'Popular Posts',
-                'type': 'PopularPosts',
-                'sectionId': 'sidebar',
-                'id': 'PopularPosts1',
-                'posts': [{
-                    'title': 'Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 3841706098957354176
-                }, {
-                    'title': 'Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 2587905798159140238
-                }, {
-                    'title': 'Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 7065001234367832543
-                }, {
-                    'title': 'Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 1365713201673093417
-                }, {
-                    'title': 'Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 5228491155633010587
-                }, {
-                    'title': 'Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 139071600703572263
-                }, {
-                    'title': 'Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 1773274623356126167
-                }, {
-                    'title': 'Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 2264837390667574888
-                }, {
-                    'title': 'Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 3761679629928076701
-                }, {
-                    'title': 'Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 7242850229960012058
-                }]
-            }, {
-                'title': 'Available Location',
-                'type': 'Label',
-                'sectionId': 'sidebar',
-                'id': 'Label2'
-            }, {
-                'title': 'D',
-                'type': 'HTML',
-                'sectionId': 'Footer-Function3',
-                'id': 'HTML2'
-            }, {
-                'title': 'Footer Copyright',
-                'type': 'HTML',
-                'sectionId': 'footer-copyright',
-                'id': 'HTML33'
-            }, {
-                'title': 'Link List',
-                'type': 'LinkList',
-                'sectionId': 'footer-checks-menu',
-                'id': 'LinkList8'
-            }, {
-                'title': 'Contact form',
-                'type': 'ContactForm',
-                'sectionId': 'hidden-widgets',
-                'id': 'ContactForm1'
-            }]
-        }]);
-        _WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image33', 'admin', document.getElementById(
-        'Image33'), {
-            'resize': false
-        }, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'admin', document.getElementById(
-            'LinkList1'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'admin', document.getElementById(
-            'LinkList2'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList3', 'admin', document.getElementById(
-            'LinkList3'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image21', 'header-room1', document.getElementById(
-            'Image21'), {
-            'resize': false
-        }, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList12', 'original-menu', document
-            .getElementById('LinkList12'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'main-ads1', document.getElementById(
-        'HTML1'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {
-            'cmtInteractionsEnabled': false,
-            'lightboxEnabled': true,
-            'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1906606432-lbx.js',
-            'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1964470060-lightbox_bundle.css'
-        }, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', document
-            .getElementById('PopularPosts1'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label2', 'sidebar', document.getElementById(
-        'Label2'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'Footer-Function3', document.getElementById(
-            'HTML2'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML33', 'footer-copyright', document.getElementById(
-            'HTML33'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList8', 'footer-checks-menu', document
-            .getElementById('LinkList8'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'hidden-widgets', document
-            .getElementById('ContactForm1'), {
-                'contactFormMessageSendingMsg': 'Sending...',
-                'contactFormMessageSentMsg': 'Your message has been sent.',
-                'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.',
-                'contactFormInvalidEmailMsg': 'A valid email address is required.',
-                'contactFormEmptyMessageMsg': 'Message field cannot be empty.',
-                'title': 'Contact form',
-                'blogId': '1473765670338329414',
-                'contactFormNameMsg': 'Name',
-                'contactFormEmailMsg': 'Email',
-                'contactFormMessageMsg': 'Message',
-                'contactFormSendMsg': 'Send',
-                'contactFormToken': 'AOuZoY6LO8W9KensGiCEmmKtlP_WoPTMHA:1741010918366',
-                'submitUrl': 'https://www.blogger.com/contact-form.do'
-            }, 'displayModeFull'));
-    </script>
 </body>
-
-<!-- Mirrored from www.dhakatravel18.com/p/how-to-book-online.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Mar 2025 14:09:37 GMT -->
-
 </html>

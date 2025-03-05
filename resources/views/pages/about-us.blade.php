@@ -7042,7 +7042,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
     </div>
     <div class='overlay'></div>
     <div class='backTop'></div>
-    <!--pikitemplates Hosted Plugins -->
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
     <script type='text/javascript'>
         var pikiMessages = {
@@ -7051,10 +7051,9 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
             noResults: "No results found",
         }
     </script>
-    <!--pikitemplates LocalHost Plugins -->
+
     <script type='text/javascript'>
         //<![CDATA[
-        <!-- jQuery replaceText | http://benalman.com/projects/jquery-replacetext-plugin/ -->
         (function($) {
             $.fn.replaceText = function(b, a, c) {
                 return this.each(function() {
@@ -7081,8 +7080,6 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
             }
         })(jQuery);
 
-        <
-        !--Theia Sticky Sidebar | v1 .7 .0 - https: //github.com/WeCodePixels/theia-sticky-sidebar -->
             ! function(a) {
                 a.fn.theiaStickySidebar = function(h) {
                     function g(k, i) {
@@ -7312,8 +7309,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 }
             }(jQuery);
 
-        <
-        !--Menuiki jQuery Plugin V2 .0 .0 | https: //github.com/pikitemplates/scripts -->
+
             ! function(e) {
                 e.fn.Menuiki = function() {
                     var n = this;
@@ -7337,8 +7333,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                 }
             }(jQuery);
 
-        <
-        !--Lazy Loading jQuery Plugin | v1 .5 .0 | https: //github.com/pikitemplates/scripts -->
+    
             ! function(t) {
                 t.fn.lazyimg = function() {
                     return this.each(function() {
@@ -7369,7 +7364,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
             }(jQuery);
         //]]>
     </script>
-    <!-- PikiTemplates Under License Creative Common Rights (CC-3.0) JS Copyrighted -->
+
     <script type='text/javascript'>
         //<![CDATA[
         function _0x483fac(n, t, e, r, i) {
@@ -9878,347 +9873,6 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
             }))
         }));
         //]]>
-    </script>
-    <!-- Blogger Default Widget Scripts -->
-
-    <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2725212210-widgets.js"></script>
-    <script type='text/javascript'>
-        window['__wavt'] = 'AOuZoY4BnWFSFTXCq0gFLT6YC2FOWHbksQ:1741010972435';
-        _WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1473765670338329414',
-            '//www.dhakatravel18.com//p/about-us.html', '1473765670338329414');
-        _WidgetManager._SetDataContext([{
-            'name': 'blog',
-            'data': {
-                'blogId': '1473765670338329414',
-                'title': 'DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025',
-                'url': 'https://www.dhakatravel18.com//p/about-us.html',
-                'canonicalUrl': 'https://www.dhakatravel18.com//p/about-us.html',
-                'homepageUrl': 'https://www.dhakatravel18.com/',
-                'searchUrl': 'https://www.dhakatravel18.com/search',
-                'canonicalHomepageUrl': 'https://www.dhakatravel18.com/',
-                'blogspotFaviconUrl': 'https://www.dhakatravel18.com/favicon.ico',
-                'bloggerUrl': 'https://www.blogger.com',
-                'hasCustomDomain': true,
-                'httpsEnabled': true,
-                'enabledCommentProfileImages': true,
-                'gPlusViewType': 'FILTERED_POSTMOD',
-                'adultContent': false,
-                'analyticsAccountNumber': '',
-                'encoding': 'UTF-8',
-                'locale': 'en',
-                'localeUnderscoreDelimited': 'en',
-                'languageDirection': 'ltr',
-                'isPrivate': false,
-                'isMobile': false,
-                'isMobileRequest': false,
-                'mobileClass': '',
-                'isPrivateBlog': false,
-                'isDynamicViewsAvailable': true,
-                'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - Atom\x22 href\x3d\x22https://www.dhakatravel18.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - RSS\x22 href\x3d\x22https://www.dhakatravel18.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025 - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/1473765670338329414/posts/default\x22 /\x3e\n',
-                'meTag': '',
-                'adsenseHostId': 'ca-host-pub-1556223355139109',
-                'adsenseHasAds': false,
-                'adsenseAutoAds': false,
-                'boqCommentIframeForm': true,
-                'loginRedirectParam': '',
-                'view': '',
-                'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
-                'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/4f2645036361bb20',
-                'plusOneApiSrc': 'https://apis.google.com/js/platform.js',
-                'disableGComments': true,
-                'interstitialAccepted': false,
-                'sharing': {
-                    'platforms': [{
-                        'name': 'Get link',
-                        'key': 'link',
-                        'shareMessage': 'Get link',
-                        'target': ''
-                    }, {
-                        'name': 'Facebook',
-                        'key': 'facebook',
-                        'shareMessage': 'Share to Facebook',
-                        'target': 'facebook'
-                    }, {
-                        'name': 'BlogThis!',
-                        'key': 'blogThis',
-                        'shareMessage': 'BlogThis!',
-                        'target': 'blog'
-                    }, {
-                        'name': 'X',
-                        'key': 'twitter',
-                        'shareMessage': 'Share to X',
-                        'target': 'twitter'
-                    }, {
-                        'name': 'Pinterest',
-                        'key': 'pinterest',
-                        'shareMessage': 'Share to Pinterest',
-                        'target': 'pinterest'
-                    }, {
-                        'name': 'Email',
-                        'key': 'email',
-                        'shareMessage': 'Email',
-                        'target': 'email'
-                    }],
-                    'disableGooglePlus': true,
-                    'googlePlusShareButtonWidth': 0,
-                    'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'
-                },
-                'hasCustomJumpLinkMessage': false,
-                'jumpLinkMessage': 'Read more',
-                'pageType': 'error_page',
-                'pageName': '',
-                'pageTitle': 'DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025',
-                'metaDescription': 'DHAKA TRAVEL 18, Dhakatravel18, Dhaka travel 18, BD CALL GIRL SERVICE, DHAKA CALL GIRL SERVICE, Bangladeshi Call girl Service, BD CALL GIRL AGENCY,'
-            }
-        }, {
-            'name': 'features',
-            'data': {}
-        }, {
-            'name': 'messages',
-            'data': {
-                'edit': 'Edit',
-                'linkCopiedToClipboard': 'Link copied to clipboard!',
-                'ok': 'Ok',
-                'postLink': 'Post Link'
-            }
-        }, {
-            'name': 'template',
-            'data': {
-                'name': 'custom',
-                'localizedName': 'Custom',
-                'isResponsive': true,
-                'isAlternateRendering': false,
-                'isCustom': true
-            }
-        }, {
-            'name': 'view',
-            'data': {
-                'classic': {
-                    'name': 'classic',
-                    'url': '?view\x3dclassic'
-                },
-                'flipcard': {
-                    'name': 'flipcard',
-                    'url': '?view\x3dflipcard'
-                },
-                'magazine': {
-                    'name': 'magazine',
-                    'url': '?view\x3dmagazine'
-                },
-                'mosaic': {
-                    'name': 'mosaic',
-                    'url': '?view\x3dmosaic'
-                },
-                'sidebar': {
-                    'name': 'sidebar',
-                    'url': '?view\x3dsidebar'
-                },
-                'snapshot': {
-                    'name': 'snapshot',
-                    'url': '?view\x3dsnapshot'
-                },
-                'timeslide': {
-                    'name': 'timeslide',
-                    'url': '?view\x3dtimeslide'
-                },
-                'isMobile': false,
-                'title': 'DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025',
-                'description': 'DHAKA TRAVEL 18, Dhakatravel18, Dhaka travel 18, BD CALL GIRL SERVICE, DHAKA CALL GIRL SERVICE, Bangladeshi Call girl Service, BD CALL GIRL AGENCY,',
-                'url': 'https://www.dhakatravel18.com//p/about-us.html',
-                'type': 'error',
-                'isSingleItem': false,
-                'isMultipleItems': false,
-                'isError': true,
-                'isPage': false,
-                'isPost': false,
-                'isHomepage': false,
-                'isArchive': false,
-                'isLabelSearch': false
-            }
-        }, {
-            'name': 'widgets',
-            'data': [{
-                'title': 'No Thumbnail',
-                'type': 'Image',
-                'sectionId': 'admin',
-                'id': 'Image33'
-            }, {
-                'title': 'Variables / Comments',
-                'type': 'LinkList',
-                'sectionId': 'admin',
-                'id': 'LinkList1'
-            }, {
-                'title': 'Related Post / Show Texts',
-                'type': 'LinkList',
-                'sectionId': 'admin',
-                'id': 'LinkList2'
-            }, {
-                'title': 'Lazy Scrolls / More Text',
-                'type': 'LinkList',
-                'sectionId': 'admin',
-                'id': 'LinkList3'
-            }, {
-                'title': '',
-                'type': 'Image',
-                'sectionId': 'header-room1',
-                'id': 'Image21'
-            }, {
-                'title': 'Main Menu',
-                'type': 'LinkList',
-                'sectionId': 'original-menu',
-                'id': 'LinkList12'
-            }, {
-                'title': '',
-                'type': 'HTML',
-                'sectionId': 'main-ads1',
-                'id': 'HTML1'
-            }, {
-                'title': 'Blog Posts',
-                'type': 'Blog',
-                'sectionId': 'main',
-                'id': 'Blog1',
-                'posts': [],
-                'headerByline': {
-                    'regionName': 'header1',
-                    'items': [{
-                        'name': 'share',
-                        'label': ''
-                    }, {
-                        'name': 'author',
-                        'label': 'VIP Call girl Service '
-                    }]
-                },
-                'footerBylines': [{
-                    'regionName': 'footer2',
-                    'items': [{
-                        'name': 'labels',
-                        'label': 'Tags'
-                    }]
-                }],
-                'allBylineItems': [{
-                    'name': 'share',
-                    'label': ''
-                }, {
-                    'name': 'author',
-                    'label': 'VIP Call girl Service '
-                }, {
-                    'name': 'labels',
-                    'label': 'Tags'
-                }]
-            }, {
-                'title': 'Popular Posts',
-                'type': 'PopularPosts',
-                'sectionId': 'sidebar',
-                'id': 'PopularPosts1',
-                'posts': [{
-                    'title': 'Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 3841706098957354176
-                }, {
-                    'title': 'Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 2587905798159140238
-                }, {
-                    'title': 'Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 7065001234367832543
-                }, {
-                    'title': 'Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 1365713201673093417
-                }, {
-                    'title': 'Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 5228491155633010587
-                }, {
-                    'title': 'Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 139071600703572263
-                }, {
-                    'title': 'Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 1773274623356126167
-                }, {
-                    'title': 'Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 2264837390667574888
-                }, {
-                    'title': 'Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 3761679629928076701
-                }, {
-                    'title': 'Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | \u09a2\u09be\u0995\u09be \u099f\u09cd\u09b0\u09be\u09ad\u09c7\u09b2 \u09e7\u09ee',
-                    'id': 7242850229960012058
-                }]
-            }, {
-                'title': 'Available Location',
-                'type': 'Label',
-                'sectionId': 'sidebar',
-                'id': 'Label2'
-            }, {
-                'title': 'D',
-                'type': 'HTML',
-                'sectionId': 'Footer-Function3',
-                'id': 'HTML2'
-            }, {
-                'title': 'Footer Copyright',
-                'type': 'HTML',
-                'sectionId': 'footer-copyright',
-                'id': 'HTML33'
-            }, {
-                'title': 'Link List',
-                'type': 'LinkList',
-                'sectionId': 'footer-checks-menu',
-                'id': 'LinkList8'
-            }, {
-                'title': 'Contact form',
-                'type': 'ContactForm',
-                'sectionId': 'hidden-widgets',
-                'id': 'ContactForm1'
-            }]
-        }]);
-        _WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image33', 'admin', document.getElementById(
-        'Image33'), {
-            'resize': false
-        }, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'admin', document.getElementById(
-            'LinkList1'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'admin', document.getElementById(
-            'LinkList2'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList3', 'admin', document.getElementById(
-            'LinkList3'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image21', 'header-room1', document.getElementById(
-            'Image21'), {
-            'resize': false
-        }, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList12', 'original-menu', document
-            .getElementById('LinkList12'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'main-ads1', document.getElementById(
-        'HTML1'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {
-            'cmtInteractionsEnabled': false,
-            'navMessage': 'Sorry, the page you were looking for in this blog does not exist.',
-            'lightboxEnabled': true,
-            'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1906606432-lbx.js',
-            'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1964470060-lightbox_bundle.css'
-        }, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', document
-            .getElementById('PopularPosts1'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label2', 'sidebar', document.getElementById(
-        'Label2'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'Footer-Function3', document.getElementById(
-            'HTML2'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML33', 'footer-copyright', document.getElementById(
-            'HTML33'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList8', 'footer-checks-menu', document
-            .getElementById('LinkList8'), {}, 'displayModeFull'));
-        _WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'hidden-widgets', document
-            .getElementById('ContactForm1'), {
-                'contactFormMessageSendingMsg': 'Sending...',
-                'contactFormMessageSentMsg': 'Your message has been sent.',
-                'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.',
-                'contactFormInvalidEmailMsg': 'A valid email address is required.',
-                'contactFormEmptyMessageMsg': 'Message field cannot be empty.',
-                'title': 'Contact form',
-                'blogId': '1473765670338329414',
-                'contactFormNameMsg': 'Name',
-                'contactFormEmailMsg': 'Email',
-                'contactFormMessageMsg': 'Message',
-                'contactFormSendMsg': 'Send',
-                'contactFormToken': 'AOuZoY7K2F_rVDXVyyvoR5hF-tRM6gW3tQ:1741010972435',
-                'submitUrl': 'https://www.blogger.com/contact-form.do'
-            }, 'displayModeFull'));
     </script>
 </body>
 

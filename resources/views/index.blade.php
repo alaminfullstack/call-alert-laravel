@@ -7072,9 +7072,8 @@
     </div>
     <div class='overlay'></div>
     <div class='backTop'></div>
-    <!--pikitemplates Hosted Plugins -->
+    
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script>
-
     <script type='text/javascript'>
         var pikiMessages = {
             showMore: "Show more",
@@ -7082,10 +7081,9 @@
             noResults: "No results found",
         }
     </script>
-    <!--pikitemplates LocalHost Plugins -->
+
     <script type='text/javascript'>
         //<![CDATA[
-        <!-- jQuery replaceText | http://benalman.com/projects/jquery-replacetext-plugin/ -->
         (function($) {
             $.fn.replaceText = function(b, a, c) {
                 return this.each(function() {
@@ -7112,8 +7110,6 @@
             }
         })(jQuery);
 
-        <
-        !--Theia Sticky Sidebar | v1 .7 .0 - https: //github.com/WeCodePixels/theia-sticky-sidebar -->
             ! function(a) {
                 a.fn.theiaStickySidebar = function(h) {
                     function g(k, i) {
@@ -7343,8 +7339,7 @@
                 }
             }(jQuery);
 
-        <
-        !--Menuiki jQuery Plugin V2 .0 .0 | https: //github.com/pikitemplates/scripts -->
+
             ! function(e) {
                 e.fn.Menuiki = function() {
                     var n = this;
@@ -7368,8 +7363,7 @@
                 }
             }(jQuery);
 
-        <
-        !--Lazy Loading jQuery Plugin | v1 .5 .0 | https: //github.com/pikitemplates/scripts -->
+    
             ! function(t) {
                 t.fn.lazyimg = function() {
                     return this.each(function() {
@@ -7400,7 +7394,7 @@
             }(jQuery);
         //]]>
     </script>
-    <!-- PikiTemplates Under License Creative Common Rights (CC-3.0) JS Copyrighted -->
+
     <script type='text/javascript'>
         //<![CDATA[
         function _0x483fac(n, t, e, r, i) {
@@ -9910,7 +9904,6 @@
         }));
         //]]>
     </script>
-    <!-- Blogger Default Widget Scripts -->
     
 </body>
 </html>
