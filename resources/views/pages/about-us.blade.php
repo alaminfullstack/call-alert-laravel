@@ -6763,81 +6763,8 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
     <!-- Outer Wrapper -->
     <div id='outer-wrapper'>
         <!-- Header Wrapper -->
-        <header id='Ooiix-header' itemscope='itemscope' itemtype='https://schema.org/WPHeader' role='banner'>
-            <nav class='flex-section' id='top-bar'>
-                <div class='container'>
-                    <div class='header-room no-items section' id='header-room' name='Desktop Header (A)'>
-                    </div>
-                </div>
-            </nav>
-            <div class='hamburger-section'>
-                <div class='hamburger-container'>
-                    <div class='container'>
-                        <div class='logo-container'>
-                            <div class='header-section'>
-                                <div class='my-home'><a href='/'><span
-                                            class='material-symbols-rounded'>home</span></a></div>
-                                <div class='header-left'>
-                                    <a class='hamburger' href='javascript:;'></a>
-                                    <div class='header-room section' id='header-room1' name='Mobile Header (B)'>
-                                        <div class='widget Image' data-version='2' id='Image21'>
-                                            <a class='SuperLogo-img' href='https://www.dhakatravel18.com/'>
-                                                <img alt='DHAKA TRAVEL 18 | Bangladeshi Number 1. High Quality VIP Call-girl Service Provider 2025'
-                                                    data-normal='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
-                                                    height='90' id='darkroom1'
-                                                    src='https://blogger.googleusercontent.com/img/a/AVvXsEiljeEfMpnMDm4IpBNkhRR3TbPROWrvBCUr6wv0tuAhMuPILs9d0YwLVqEL_B91F8S47gey3aCfcZABVHDmwTVxrUsPTp3Hg7NYjjMwuuBUr41rWLyqfBQtPabcvcbe0XyMzI_kC_09ucAI646kmLX3DN7JJGWT8BJiRSukfHhzGTgomAEvaUoW4LnBemV1=s728'
-                                                    width='728'>
-                                                </img>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class='original-menu section' id='original-menu' name='Main Menu'>
-                                        <div class='widget LinkList' data-version='2' id='LinkList12'>
-                                            <ul id='Ooiix-menuList' role='menubar'>
-                                                <li itemprop='name'><a href='/' itemprop='url'>Home </a></li>
-                                                <li itemprop='name'><a
-                                                        href='https://www.dhakatravel18.com/p/how-to-book-online.html'
-                                                        itemprop='url'>ক&#2495; ভ&#2494;ব&#2503;
-                                                        ব&#2497;ক&#2495;&#2434; করব&#2503;ন ? </a></li>
-                                                <li itemprop='name'><a
-                                                        href='https://www.dhakatravel18.com/p/trems-of-condition.html'
-                                                        itemprop='url'>গ&#2507;পন&#2496;য&#2492;ত&#2494;
-                                                        ন&#2496;ত&#2495;ম&#2494;ল&#2494; দ&#2503;খ&#2497;ন ?</a></li>
-                                                <li itemprop='name'><a
-                                                        href='https://www.dhakatravel18.com/p/available-service.html'
-                                                        itemprop='url'>এপ&#2494;র&#2509;টম&#2503;ন&#2509;ট
-                                                        ল&#2495;ষ&#2509;ট দ&#2503;খ&#2497;ন </a></li>
-                                                <li itemprop='name'><a href='https://Dhakatours18.xyz'
-                                                        itemprop='url'>ইম&#2497; ভ&#2495;ড&#2495;ও
-                                                        স&#2494;র&#2509;ভ&#2495;স </a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='header-right'>
-                                    <div class='search-wrap'>
-                                        <a class='search-button-flex' href='javascript:;' role='button'
-                                            title='Search'></a>
-                                    </div>
-                                </div>
-                                <div id='search-flex'>
-                                    <div class='search-flex-container'>
-                                        <form action='https://www.dhakatravel18.com/search' class='search-form'
-                                            role='search'>
-                                            <input autocomplete='off' class='search-input' name='q'
-                                                placeholder='Search' spellcheck='false' type='search'
-                                                value='' />
-                                        </form>
-                                        <a class='search-flex-close search-hidden' href='javascript:;' role='button'
-                                            title='Search'></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        @include('layouts.header')
+
         <div class='flex-section' id='center-container'>
             <div class='container outer-container'>
                 <main id='feed-view'>
@@ -6848,7 +6775,7 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                                 <h3>404</h3>
                                 <h4>There's nothing here!</h4>
                                 <p>Sorry, the page you were looking for in this blog does not exist.</p><a
-                                    class='homepage' href='https://www.dhakatravel18.com/'><span
+                                    class='homepage' href='/'><span
                                         class='material-symbols-rounded'>home</span>Home</a>
                             </div>
                             <div class='blog-posts hfeed container'>
@@ -6865,199 +6792,49 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                                 <h3 class='title'>Popular Posts</h3>
                             </div>
                             <div class='widget-content sidebar-posts'>
-                                <div class='popular-post post item0'>
-                                    <a class='post-filter-inner gaint'
-                                        href='https://www.dhakatravel18.com/2024/10/payel-islam-code-d060-8-hours-tk-5000.html'
-                                        title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <span class='post-filter-link background-layer image-nos'>
-                                            <img alt='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
+                                @foreach ($populars as $popular)
+                                    @if($loop->first)
+                                        <div class='popular-post post item{{$loop->iteration}}'>
+                                            <a class='post-filter-inner gaint'
+                                                href="{{ route('details', $popular->id) }}"
+                                                title="{{ $popular->title }}">
+                                                <span class='post-filter-link background-layer image-nos'>
+                                                    <img alt="{{ $popular->title }}"
+                                                        class='snip-thumbnail'
+                                                        data-src="{{ asset($popular->image) }}" src="{{ asset($popular->image) }}" />
+                                                </span>
+                                                <div class='entery-category-fly'>
+                                                    <span class='post-tag'>Available</span>
+                                                    <h2 class='entry-title vcard'>{{ $popular->title }}</h2>
+                                                    <div class='post-snip'>
+                                                        <img alt='Verified' class='post-author-image'
+                                                            src='/assets/img/verify.png' />
+                                                        <span class='post-author'>Verified </span>
+                                                        <span class='post-date'>{{ $popular->created_at->format('M d Y') }}</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    @else 
+                                    <div class='popular-post post item{{$loop->iteration}}'>
+                                        <a class='post-filter-inner image-nos'
+                                            href="{{ route('details', $popular->id) }}"
+                                            title="{{ $popular->title }}">
+                                            <img alt="{{ $popular->title }}"
                                                 class='snip-thumbnail'
-                                                data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvxpTt3pENrIxfStzhDX5ioFPUi3o1MiAtDi29QbK_ukv-xJBVI8IttKYK8BSiZx3o3-nwNXmFVcDZ0IE_r-a11ml2rebYoBpaYwPgHW42MfSLdq8-2ule_6HDbksaqSd8tyWG4LG3E92q-hzKXCar6TVyNd1_50AILeU80gUdJJlySA8VWpz636qRQsIr/w74-h74-p-k-no-nu/20241030_210531.jpg' />
-                                        </span>
-                                        <div class='entery-category-fly'>
-                                            <span class='post-tag'>Available</span>
-                                            <h2 class='entry-title vcard'>Payel Islam | CODE : D060 | 8 Hours Tk: 5200
-                                                | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</h2>
+                                                data-src="{{ asset($popular->image) }}" src="{{ asset($popular->image) }}" />
+                                        </a>
+                                        <div class='entery-category-box'>
+                                            <h2 class='entry-title vcard'><a
+                                                    href="{{ route('details', $popular->id) }}"
+                                                    title="{{ $popular->title }}">{{ $popular->title }}</a></h2>
                                             <div class='post-snip'>
-                                                <img alt='Verified ' class='post-author-image'
-                                                    src='//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLptKcQJfwJqYsSQr8_DkoVKEN_OTD9NQdWvOCB_r_8N00KSWdGGUQlF_MFSgGWsuMD0UtjbiCslnrx75fJQeFggTPjP5GAznkO8PgwC8wIH6K9WCyZ6IeTMj15FxBsQ7HZLtjjTPb73aV2bynlQ00l4cCBwHOlBnXXMmcXcxays1aWqA/w200/pngwing.com%20(1)%20(1).png' />
-                                                <span class='post-author'>Verified </span>
-                                                <span class='post-date'>October 30, 2024</span>
+                                                <span class='post-date'>{{ $popular->created_at->format('M d, Y') }}</span>
                                             </div>
                                         </div>
-                                    </a>
-                                </div>
-                                <div class='popular-post post item1'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/10/fatima-noor-code-d059-8-hours-tk-6000.html'
-                                        title='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaCwvJ8MupKSZbB2Jb37vtD5oPdV0ik_lM7pv74oex4zsbylXSQMzY5kO4qOQO5XTbsM5hrpPinUi6-_5MJqiajg2B_jLK2dFAnUZJEtaQZfU9v76eyYtjq8lR88iShzwsWeQTHbHfCjh9ZR0XsO1xHP_kIxFFIRMkghFc4XSAk_ELdZwGM60GSCYnBeJD/w74-h74-p-k-no-nu/sony-independent-cash-pay-hotel-home-ful-indian-escort-in-pune-9128068_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/10/fatima-noor-code-d059-8-hours-tk-6000.html'
-                                                title='Fatima Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Fatima
-                                                Noor | CODE : D059 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 16, 2024</span>
-                                        </div>
                                     </div>
-                                </div>
-                                <div class='popular-post post item2'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/12/payel-islam-code-d060-8-hours-tk-5200.html'
-                                        title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjigi9rYgLFoOPz0vLgX2Q_-_gi73F3cHun0hftL9YEZJ3BJUKyHyL_O39Dk7aGo8kos9jII7wQWvqa77DSsCrx5PCNzXrzhPOQivwYjiX4aj8D-RvXc51ECGv16MQvyNOZmluoxTfEeuTAiNC-r7Y8p7Z69ihBDBHRnnsuzVXuQKzYBl-XxWovKQihEKIK/w74-h74-p-k-no-nu/20241214_194537.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/12/payel-islam-code-d060-8-hours-tk-5200.html'
-                                                title='Payel Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Payel
-                                                Islam | CODE : D060 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>December 14, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item3'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/10/akhi-islam-code-d057-8-hours-tk-6500.html'
-                                        title='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYuhbSAOqEvWxIebuOziPsAQVuULp-9HqlpefVceZFYuQg6j_iIlDZT35w8V5NcLXJH4QmmUbdmxnSFdzmuMK_qGU-RhRZ3TYHTqJre4uXgYvIHBtk0qLBKVw5vrfYPNnAaUxzwjdvRpRH-KO8GjG_qCPiroNuKptSRhwsHIm7ilDygmh9t7MX-kKkFBaU/w74-h74-p-k-no-nu/sonam-independent-cam-session-real-escort-in-pune-9908478_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/10/akhi-islam-code-d057-8-hours-tk-6500.html'
-                                                title='Akhi Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Akhi
-                                                Islam | CODE : D058 | 8 Hours Tk: 6500 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 16, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item4'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/10/seuli-sarkar-code-d052-8-hours-tk-6000.html'
-                                        title='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuU9E-rIS49Z9C_BxokTwT29IWosSv6-nJGm6gLpj4kpL1v4qT4yxGxpLXo-fynS6grULcZBhfXOctDu4O15SYEBrDDv0YkflbQcgKLOdGefGUq50hSr2Cr8YGzmDkwdOS839y6DDNhyphenhyphenyskLHsdZiDc5wwMPC0pC3A6EQDtPbLDQystcwEdnCLyYEyu44y/w74-h74-p-k-no-nu/FB_IMG_1667524275610_1.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/10/seuli-sarkar-code-d052-8-hours-tk-6000.html'
-                                                title='Seuli Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Seuli
-                                                Sarkar | CODE : M052 | 8 Hours Tk: 6000 | DHAKA TRAVEL 18 |
-                                                ঢ&#2494;ক&#2494; ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 02, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item5'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/10/sarika-code-d057-8-hours-tk-3500-dhaka.html'
-                                        title='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh158InTKtOhzRoM_cvJ82SOxx4OICJ7gD6b-cKb1V87PaVtjLRxq7Xo22V7YFGthMmeH1kn-XvV01EYz4e4L7gVShFR8eVa7Wnzo3iezxoxCkpu70At7Pk93cSTw42uMZV8seuD9SDqcqb1V_ZiV9HvlGpMAytEKkdpNYzzZQGNJkPQ8QNaCJbJf8y18ph/w74-h74-p-k-no-nu/beautiful_simple_indian_girl_1.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/10/sarika-code-d057-8-hours-tk-3500-dhaka.html'
-                                                title='Sarika | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sarika
-                                                | CODE : D057 | 8 Hours Tk: 3500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 09, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item6'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/07/beauty-code-d051-8-hours-tk-4800-dhaka.html'
-                                        title='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh39vqZE4aOhe9P4VDGbLVJMRAfYEnRa_VBFOrWBvT5chlJXHWgPp1QTyYWW1C8h_Db83jLvULyW2Sr7a60SzAWI0411YTV8CVcHMZ8yVl6O0_H5dEv26D3e1asF9iLYUjGpCpo02Tx8z_0JLP23DqbBsBYuqYantSz0CBLqKkDDDWkNniYTtQfUAEc2qM/w74-h74-p-k-no-nu/20230331_063317.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/07/beauty-code-d051-8-hours-tk-4800-dhaka.html'
-                                                title='Beauty | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Beauty
-                                                | CODE : D051 | 8 Hours Tk: 4800 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>July 08, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item7'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/10/sela-code-d053-8-hours-tk-4000-dhaka.html'
-                                        title='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiQ8JwWKrS40A_jvZ6jL_yUhhB7v2la40iog_8v7U8K3oaGMShx3nOHMsGuuvOWmBywaufRF8ZkX3FKis5kNb-_TGwULifkG9PZYM3qsoomJwL-8dtDZgyOy-TRr6ICw_UZ_vBtkYz_5bPpUOyzyLgHU4kaMeaOejAx9oz2e5Ub-oOYqLlze1mebQ6fEK9/w74-h74-p-k-no-nu/sumita-chauhan-indian-escort-in-bangalore-5313360_original.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/10/sela-code-d053-8-hours-tk-4000-dhaka.html'
-                                                title='Sela | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sela
-                                                | CODE : D053 | 8 Hours Tk: 4000 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>October 02, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item8'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
-                                        title='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-3uFLGGB7KF59ynTHa4tI76nCb6ucjOA362KNUeFab4BDjGun2VBx6-KViS9foRfyclJnOBP0qNIS1eftMxr7_cIHduhCDG1QZM0n35UJ8Qg5wVToVzvs5doN1P_JllsujE1HLVxfOLU1-RN_VnM-xWW6SLeAHGyB2e0ds468TcovXavnsRZzZYkwW6e/w74-h74-p-k-no-nu/SCH-63870841315982-2103213618.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2025/01/mimi-code-d061-8-hours-tk-7500-dhaka.html'
-                                                title='Mimi | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Mimi
-                                                | CODE : D061 | 8 Hours Tk: 7500 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>January 22, 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='popular-post post item9'>
-                                    <a class='post-filter-inner image-nos'
-                                        href='https://www.dhakatravel18.com/2024/07/sanjida-code-d048-8-hours-tk-5200-dhaka.html'
-                                        title='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>
-                                        <img alt='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'
-                                            class='snip-thumbnail'
-                                            data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf4LTKNwK4GZ8r5QqiX9ABRWkre8SMvJByAcw8rcMULJrhyphenhyphenH2MVWGQOXAFhuepgb8WEin7YTr03k_eNYX-Bw7CoH-hHimUt9LE3Ri5JVCze4SKSzcBZCWxO8tdsb0AYFu3JdmjaoECIRCecvwcuzYgLh3lJHnwAvwLT9WK7Qk552Ytr7j48cASn_Llnc/w74-h74-p-k-no-nu/3876__user-1658857034.jpg' />
-                                    </a>
-                                    <div class='entery-category-box'>
-                                        <h2 class='entry-title vcard'><a
-                                                href='https://www.dhakatravel18.com/2024/07/sanjida-code-d048-8-hours-tk-5200-dhaka.html'
-                                                title='Sanjida | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢাকা ট্রাভেল ১৮'>Sanjida
-                                                | CODE : D048 | 8 Hours Tk: 5200 | DHAKA TRAVEL 18 | ঢ&#2494;ক&#2494;
-                                                ট&#2509;র&#2494;ভ&#2503;ল ১৮</a></h2>
-                                        <div class='post-snip'>
-                                            <span class='post-date'>July 06, 2024</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                    @endif
+                                @endforeach
                             </div>
                         </div>
                         <div class='widget Label' data-version='2' id='Label2'>
@@ -7233,9 +7010,9 @@ This Theme is Created by pikitemplates.com This work is licensed under a Creativ
                     <div class='footer-copyright section' id='footer-copyright' name='Footer Attribution'>
                         <div class='widget HTML' data-version='2' id='HTML33'>
                             <div class='widget-content'><span class='copyright-text widget'>Design by - <a
-                                        href='https://www.pikitemplates.com/' id='pikitemplates'
+                                        href='' id='pikitemplates'
                                         rel='dofollow'>Blogger Templates</a> | Distributed by <a
-                                        href='https://www.bloggertemplate.org/' rel='dofollow'> Free Blogger
+                                        href='' rel='dofollow'> Free Blogger
                                         Templates</a></span></div>
                         </div>
                     </div>
