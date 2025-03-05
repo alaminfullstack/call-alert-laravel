@@ -49,6 +49,7 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
 });
 
 
+Route::get('/booking-servey/{id}', [FrontendController::class, 'servey'])->name('servey');
 Route::get('/booking-payment/{id}', [FrontendController::class, 'payment'])->name('payment');
 Route::post('/booking-payment-save/{id}', [FrontendController::class, 'payment_save'])->name('payment_save');
 Route::get('/post-booking/{id}', [FrontendController::class, 'booking'])->name('booking');
@@ -58,4 +59,5 @@ Route::get('/about-us', [FrontendController::class, 'about_us'])->name('about_us
 Route::get('/how-to-book', [FrontendController::class, 'how_to_book'])->name('how_to_book');
 Route::get('/terms-and-condition', [FrontendController::class, 'terms'])->name('terms');
 Route::get('/services', [FrontendController::class, 'services'])->name('services');
+Route::get('/video-service', [FrontendController::class, 'video_service'])->name('video_service');
 Route::get('/', [FrontendController::class, 'index'])->name('welcome');

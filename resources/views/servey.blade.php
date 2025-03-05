@@ -4898,7 +4898,7 @@
                         here, you must pay 300 tk in advance, after the booking is completed, the girl will call you
                         directly within 30 minutes. Payment is taken bkash or Nagad </p>
                 </div>
-                <form action="{{ route('payment_save', $post->id) }}" method="POST" style="margin: 0px auto; max-width: 800px;">
+                <form action="{{ route('booking_save', $post->id) }}" method="POST" style="margin: 0px auto; max-width: 800px;">
                     @csrf
 
                     <div id="question-card-0" class="mdc-card"
@@ -5080,7 +5080,41 @@
                                 Required</div>
                         </div>
                     </div>
+
                     <div id="question-card-8" class="mdc-card"
+                        style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px 1px; margin: 8px 16px 16px; border-radius: 0px;">
+                        <div id="card-content-7" class="_3OqOaUpcrp_ty3_jwNnTz-"
+                            style="background-color: rgb(83, 1, 131); display: grid; flex-direction: column; justify-content: space-between;">
+                            <span class="_2scjUQE6q8ZGQIPNFZ8J31"
+                                style="color: rgb(255, 255, 255); min-width: 725px;">Payment Method </span><span
+                                class="_2kRocsUMniYpa0ahhCKf8i"
+                                style="color: rgb(255, 255, 255); min-width: 725px;"></span></div>
+                        <div class="_2RpQtwNwtRnrwWb6tRhZvA" id="card-action-7"><a tabindex="0"></a>
+                            <div id="search-drop-down" class="Oxt-Gdwv78BIq2hWN8GUh">
+                                <div id="drop-down-select"
+                                    class="_1GoaaJIjO-zASYtbareskf _1b6X1n06mnuy6ZDt1xmIC- 
+    null"
+                                    style="border-color: transparent transparent rgb(33, 33, 33); top: 4px; color: rgb(33, 33, 33);">
+                                    
+                                </div>
+
+                                @foreach ($methods as $method)
+                                    <select name="payment_method" style="display: block; width: 100%;border: none; margin-top: -18px;" class="form-control">
+                                        <option value="{{ $method->id }}">{{ $method->title }}</option>
+                                    </select>
+                                @endforeach
+
+            
+                                
+                                {{-- <input type="text" name="work_type"
+                                    style="visibility: hidden;"> --}}
+                            </div>
+                            <div class="_3p6UuR5HglZs4S5xXWepGh"
+                                style="background-color: rgb(232, 232, 232); color: rgb(33, 33, 33); display: inline-block;">
+                                Required</div>
+                        </div>
+                    </div>
+                    {{-- <div id="question-card-8" class="mdc-card"
                         style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px 1px; margin: 8px 16px 16px; border-radius: 0px;">
                         <div id="card-content-8" class="_3OqOaUpcrp_ty3_jwNnTz-"
                             style="background-color: rgb(83, 1, 131); display: grid; flex-direction: column; justify-content: space-between;">
@@ -5122,7 +5156,7 @@
                                 style="background-color: rgb(232, 232, 232); color: rgb(33, 33, 33); display: inline-block;">
                                 Required</div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div id="question-card-9" class="mdc-card"
                         style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px 1px; margin: 8px 16px 16px; border-radius: 0px;">
                         <div id="card-content-9" class="_3OqOaUpcrp_ty3_jwNnTz-"

@@ -42,7 +42,7 @@
                                                 href="{{ route('services') }}"
                                                 itemprop='url'>এপ&#2494;র&#2509;টম&#2503;ন&#2509;ট
                                                 ল&#2495;ষ&#2509;ট দ&#2503;খ&#2497;ন </a></li>
-                                        <li itemprop='name'><a href='/'
+                                        <li itemprop='name'><a href="{{ route('video_service') }}"
                                                 itemprop='url'>ইম&#2497; ভ&#2495;ড&#2495;ও
                                                 স&#2494;র&#2509;ভ&#2495;স </a></li>
                                     </ul>

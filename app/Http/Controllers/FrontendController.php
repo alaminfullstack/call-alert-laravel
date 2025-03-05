@@ -36,16 +36,32 @@ class FrontendController extends Controller
 
         // Store form data in session
         session([
-            'booking_data' => $request->only(['name', 'mobile', 'address', 'date', 'amount', 'payment_method'])
+            'booking_data' => $request->only(['name', 'mobile', 'address', 'whatsapp', 'date', 'payment_method', 'type', 'work_type'])
         ]);
 
-        return redirect()->route('payment', $post->id);
+        return redirect()->route('servey', $post->id);
+    }
+
+    public function servey($id) {
+        $post = Post::findOrFail($id);
+        $methods = PaymentMethod::latest()->get();
+
+        // Retrieve stored session data
+        $bookingData = session('booking_data', []);
+
+        // Find the selected payment method
+        $selectedMethod = null;
+        if (!empty($bookingData['payment_method'])) {
+            $selectedMethod = PaymentMethod::find($bookingData['payment_method']);
+        }
+
+        return view('payment', compact('post', 'methods', 'bookingData', 'selectedMethod'));
     }
 
     public function payment($id){
         $post = Post::findOrFail($id);
-        return view('servey', compact('post'));
         $methods = PaymentMethod::latest()->get();
+        return view('servey', compact('post','methods'));
 
         // Retrieve stored session data
         $bookingData = session('booking_data', []);
@@ -64,25 +80,25 @@ class FrontendController extends Controller
         $post = Post::findOrFail($id);
 
         // Create a new booking record
-        $booking = new Booking();
-        $booking->post_id = $id;
-        $booking->name = $request->name;
-        $booking->mobile = $request->mobile;
-        $booking->whatsapp = $request->whatsapp;
-        $booking->address = $request->address;
-        $booking->date = $request->date;
-        $booking->time = $request->time;
-        $booking->rate = $post->rate;
-        $booking->amount = $post->charge;
-        $booking->type = $request->type;
-        $booking->work_type = $request->work_type;
-        $booking->account_number = $request->account_number;
-        $booking->method = $request->bkash;
-        // $booking->transaction_id = $request->transaction_id;
-        $booking->status = 'booking';
-        $booking->save();
+        // $booking = new Booking();
+        // $booking->post_id = $id;
+        // $booking->name = $request->name;
+        // $booking->mobile = $request->mobile;
+        // $booking->whatsapp = $request->whatsapp;
+        // $booking->address = $request->address;
+        // $booking->date = $request->date;
+        // $booking->time = $request->time;
+        // $booking->rate = $post->rate;
+        // $booking->amount = $post->charge;
+        // $booking->type = $request->type;
+        // $booking->work_type = $request->work_type;
+        // $booking->account_number = $request->account_number;
+        // $booking->method = $request->bkash;
+        // // $booking->transaction_id = $request->transaction_id;
+        // $booking->status = 'booking';
+        // $booking->save();
 
-        return redirect()->route('welcome')->with('success', 'Booking and payment saved successfully.');
+        // return redirect()->route('welcome')->with('success', 'Booking and payment saved successfully.');
         
         $bookingData = session('booking_data', []);
         if (empty($bookingData)) {
@@ -94,9 +110,14 @@ class FrontendController extends Controller
         $booking->post_id = $id;
         $booking->name = $bookingData['name'];
         $booking->mobile = $bookingData['mobile'];
+        $booking->whatsapp = $bookingData['whatsapp'];
         $booking->address = $bookingData['address'];
         $booking->date = $bookingData['date'];
-        $booking->amount = $bookingData['amount'];
+        $booking->time = $bookingData['time'];
+        $booking->type = $bookingData['type'];
+        $booking->work_type = $bookingData['work_type'];
+        $booking->amount = $post->charge;
+        $booking->rate = $post->rate;
         $booking->method = $request->method;
         $booking->method_address = $request->method_address;
         $booking->account_number = $request->account_number;
@@ -128,5 +149,10 @@ class FrontendController extends Controller
     public function about_us() {
         $populars = Post::inRandomOrder()->limit(10)->get();
         return view('pages.about-us', compact('populars'));
+    }
+
+    public function video_service() {
+        $populars = Post::inRandomOrder()->limit(10)->get();
+        return view('pages.video-service', compact('populars'));
     }
 }
