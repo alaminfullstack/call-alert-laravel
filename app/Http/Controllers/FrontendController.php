@@ -36,7 +36,7 @@ class FrontendController extends Controller
 
         // Store form data in session
         session([
-            'booking_data' => $request->only(['name', 'mobile', 'address', 'whatsapp', 'date', 'payment_method', 'type', 'work_type'])
+            'booking_data' => $request->only(['name', 'mobile', 'address', 'whatsapp', 'date', 'time', 'payment_method', 'type', 'work_type'])
         ]);
 
         return redirect()->route('servey', $post->id);
@@ -113,7 +113,7 @@ class FrontendController extends Controller
         $booking->whatsapp = $bookingData['whatsapp'];
         $booking->address = $bookingData['address'];
         $booking->date = $bookingData['date'];
-        $booking->time = $bookingData['time'];
+        $booking->time = $bookingData['time'] ?? null;
         $booking->type = $bookingData['type'];
         $booking->work_type = $bookingData['work_type'];
         $booking->amount = $post->charge;
