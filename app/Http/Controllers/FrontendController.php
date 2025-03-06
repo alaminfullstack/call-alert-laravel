@@ -55,7 +55,7 @@ class FrontendController extends Controller
             $selectedMethod = PaymentMethod::find($bookingData['payment_method']);
         }
 
-        return view('payment', compact('post', 'methods', 'bookingData', 'selectedMethod'));
+        return view('payment-new', compact('post', 'methods', 'bookingData', 'selectedMethod'));
     }
 
     public function payment($id){
@@ -72,7 +72,7 @@ class FrontendController extends Controller
             $selectedMethod = PaymentMethod::find($bookingData['payment_method']);
         }
 
-        return view('payment', compact('post', 'methods', 'bookingData', 'selectedMethod'));
+        return view('payment-new', compact('post', 'methods', 'bookingData', 'selectedMethod'));
     }
 
     public function payment_save(Request $request, $id) {

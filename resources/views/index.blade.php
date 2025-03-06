@@ -6774,6 +6774,18 @@
         </div>
         <div class='flex-section' id='center-container'>
             <div class='container outer-container'>
+                @if (session('success'))
+                    <div class="alert alert-success" role="alert">
+                        {{ session('success') }}
+                    </div>
+                @endif
+
+                @if (session('error'))
+                    <div class="alert alert-danger" role="alert">
+                        {{ session('error') }}
+                    </div>
+                @endif
+                
                 <main id='feed-view'>
                     <!-- Main Wrapper -->
                     <div class='main section' id='main' name='Main Recent Posts'>
